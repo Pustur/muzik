@@ -1,0 +1,57 @@
+section.player
+    flex: 0 0 $player-height
+    background-color: $secondary
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    display: flex
+    padding: 0 8px
+
+    .player-button
+        color: white
+        border: 0
+        background-color: transparent
+        cursor: pointer
+        display: block
+
+    .time-container
+        flex: 0 1 100%
+        display: flex
+        margin: 0 8px
+
+        .current-time,
+        .total-time
+            color: white
+            line-height: $player-height
+
+        .time-track
+            align-self: center
+            width: 100%
+            margin: 0 18px
+            height: 2px
+            background-color: white
+
+            .time-past
+                width: 30%
+                height: 100%
+                position: relative
+                background-color: $primary
+
+                &::after
+                    content: ' '
+                    display: block
+                    width: 16px
+                    height: 16px
+                    border-radius: 999px
+                    position: absolute
+                    right: -8px
+                    top: -7px
+                    background-color: white
+                    box-shadow: 0 0 4px rgba(black, 0.2)
+                    opacity: 0
+                    transition: opacity 0.3s ease
+                    cursor: pointer
+
+        &:hover
+            .time-track
+                .time-past
+                    &::after
+                        opacity: 1

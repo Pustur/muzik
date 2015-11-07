@@ -1,0 +1,33 @@
+{
+    "author": {
+        "name": "Loris Bettazza",
+        "email": "loriteck@yahoo.it"
+    },
+    "menu": [
+        {
+            "name": "Home",
+            "link": "#",
+            "icon": "home"
+        },
+        {
+            "name": "Top",
+            "link": "#",
+            "icon": "trending_up"
+        },
+        {
+            "name": "Nuove uscite",
+            "link": "#",
+            "icon": "new_releases"
+        },
+        {
+            "name": "Raccolte",
+            "link": "#",
+            "icon": "folder"
+        },
+        {
+            "name": "Generi",
+            "link": "#",
+            "icon": "audiotrack"
+        }
+    ]
+}

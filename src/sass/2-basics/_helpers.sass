@@ -1,0 +1,35 @@
+.container
+    max-width: $lg
+    margin: 0 auto
+    padding: 0 $gutter
+
+.clearfix
+    &:before,
+    &:after
+        content: ' '
+        display: table
+    &:after
+        clear: both
+
+.sr-only
+    position: absolute
+    width: 1px
+    height: 1px
+    padding: 0
+    margin: -1px
+    overflow: hidden
+    clip: rect(0, 0, 0, 0)
+    border: 0
+
+.material-icons
+    &.tiny
+        font-size: 18px
+
+    &.small
+        font-size: 24px
+
+    &.medium
+        font-size: 36px
+
+    &.large
+        font-size: 48px

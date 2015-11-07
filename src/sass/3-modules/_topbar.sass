@@ -1,0 +1,35 @@
+section.topbar
+    height: 48px
+    background-color: $secondary
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    flex: 0 0 48px
+    display: flex
+
+    .topbar-button
+        flex: 0 0 48px
+        height: 48px
+        width: 48px
+        color: white
+        border: 0
+        background-color: transparent
+        cursor: pointer
+        display: block
+
+        @media (min-width: $lg)
+            &.burger
+                display: none
+
+            &.search
+                flex: 0 0 56px
+                height: 32px
+                margin-top: 8px
+                background-color: $primary
+
+    input[type="search"]
+        flex: 0 1 500px
+        float: left
+        height: 32px
+        margin-top: 8px
+
+        @media (min-width: $lg)
+            margin-left: 8px

@@ -1,0 +1,17 @@
+mixin menuItem(text, url, icon)
+    li
+        a(href="#{url}")
+            i.material-icons #{icon}
+            | #{text}
+
+
+section.sidebar
+    button.sidebar-button.close
+        i.material-icons close
+
+    a(href="#").logo
+        include _logo
+    nav
+        ul
+            -each menuItem in menu
+                +menuItem(menuItem.name, menuItem.link, menuItem.icon)

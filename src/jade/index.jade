@@ -1,0 +1,20 @@
+extend 0-layouts/_default
+
+block head
+    title Muzik!
+
+block sidebar
+    include 1-partials/_sidebar
+
+block topbar
+    include 1-partials/_topbar
+
+block content
+    include 1-partials/_content
+
+block player
+    include 1-partials/_player
+    
+block scripts
+    script(src="https://code.jquery.com/jquery-1.11.3.min.js")
+    script(src="js/script.min.js")

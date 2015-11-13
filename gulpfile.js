@@ -57,6 +57,7 @@ gulp.task('css', function(){
 
 gulp.task('js', function(){
     return gulp.src([
+        config.src + 'js/0-vendor/jquery.min.js',
         config.src + 'js/script.js',
         config.src + 'js/1-modules/sidebar.js',
         config.src + 'js/1-modules/player.js'

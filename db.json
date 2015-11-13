@@ -2289,23 +2289,6 @@
                     ]
                 },
                 {
-                    "name": "Revolution 909",
-                    "artist": "Daft Punk",
-                    "duration": "00:05:26",
-                    "imageUrl": "daft-punk-homework.jpg",
-                    "sourceUrl": "Revolution 909.mp3",
-                    "labelName": "Virgin",
-                    "releaseDate": "1997-01-20",
-                    "isExplicit": false,
-                    "trackNumber": 3,
-                    "album": "Homework",
-                    "genres": [
-                        "French house",
-                        "Techno",
-                        "Acid house"
-                    ]
-                },
-                {
                     "name": "Da Funk",
                     "artist": "Daft Punk",
                     "duration": "00:05:28",

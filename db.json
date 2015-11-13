@@ -7,27 +7,3408 @@
         {
             "name": "Home",
             "link": "#",
-            "icon": "home"
+            "icon": "home",
+            "class": "active"
         },
         {
             "name": "Top",
             "link": "#",
-            "icon": "trending_up"
+            "icon": "trending_up",
+            "class": ""
         },
         {
             "name": "Nuove uscite",
             "link": "#",
-            "icon": "new_releases"
+            "icon": "new_releases",
+            "class": ""
         },
         {
             "name": "Raccolte",
             "link": "#",
-            "icon": "folder"
+            "icon": "folder",
+            "class": ""
         },
         {
             "name": "Generi",
             "link": "#",
-            "icon": "audiotrack"
+            "icon": "audiotrack",
+            "class": ""
+        }
+    ],
+    "albums": [
+        {
+            "name": "Weapon",
+            "artist": "Skinny Puppy",
+            "duration": "00:46:14",
+            "imageUrl": "skinny-puppy-weapon.jpg",
+            "labelName": "Metropolis",
+            "releaseDate": "2013-05-28",
+            "isExplicit": false,
+            "trackCount": 10,
+            "genres": [
+                "Post-industrial",
+                "Electro-industrial",
+                "Glitch",
+                "Noise",
+                "Dark ambient",
+                "IDM"
+            ],
+            "tracks": [
+                {
+                    "name": "wornin'",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:04:42",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "wornin.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "illisiT",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:03:57",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "illisiT.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "saLvo",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:03:45",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "saLvo.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "gLowbeL",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:03:15",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "gLowbeL.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "solvent",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:04:37",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "solvent.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "paragUn",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:04:52",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "paragUn.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "survivalisto",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:04:50",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "survivalisto.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "tsudanama",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:05:53",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "tsudanama.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "plasiCage",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:03:13",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "plasiCage.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                },
+                {
+                    "name": "terminal",
+                    "artist": "Skinny Puppy",
+                    "duration": "00:07:10",
+                    "imageUrl": "skinny-puppy-weapon.jpg",
+                    "sourceUrl": "terminal.mp3",
+                    "labelName": "Metropolis",
+                    "releaseDate": "2013-05-28",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Weapon",
+                    "genres": [
+                        "Post-industrial",
+                        "Electro-industrial",
+                        "Glitch",
+                        "Noise",
+                        "Dark ambient",
+                        "IDM"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "For Lack of a Better Name",
+            "artist": "deadmau5",
+            "duration": "01:05:56",
+            "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+            "labelName": "Mau5trap Recordings",
+            "releaseDate": "2009-09-22",
+            "isExplicit": false,
+            "trackCount": 10,
+            "genres": [
+                "Progressive house",
+                "Electro house",
+                "Tech house",
+                "Trance"
+            ],
+            "tracks": [
+                {
+                    "name": "FML",
+                    "artist": "deadmau5",
+                    "duration": "00:06:35",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "FML.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-09-22",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Moar Ghosts 'n' Stuff",
+                    "artist": "deadmau5",
+                    "duration": "00:04:30",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Moar Ghosts n Stuff.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-09-22",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Ghosts 'n' Stuff",
+                    "artist": "deadmau5",
+                    "duration": "00:03:15",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Ghosts n Stuff.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2008-11-24",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Hi Friend",
+                    "artist": "deadmau5",
+                    "duration": "00:05:15",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Hi Friend.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2008-08-18",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Bot",
+                    "artist": "deadmau5",
+                    "duration": "00:05:22",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Bot.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Word Problems",
+                    "artist": "deadmau5",
+                    "duration": "00:07:48",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Word Problems.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Soma",
+                    "artist": "deadmau5",
+                    "duration": "00:06:07",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Soma.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-09-22",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Lack of a Better Name",
+                    "artist": "deadmau5",
+                    "duration": "00:06:58",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Lack of a Better Name.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-07-28",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "The 16th Hour",
+                    "artist": "deadmau5",
+                    "duration": "00:09:29",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "The 16th Hour.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2009-09-22",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                },
+                {
+                    "name": "Strobe",
+                    "artist": "deadmau5",
+                    "duration": "00:10:37",
+                    "imageUrl": "deadmau5-for-lack-of-a-better-name.jpg",
+                    "sourceUrl": "Strobe.mp3",
+                    "labelName": "Mau5trap Recordings",
+                    "releaseDate": "2010-02-23",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "For Lack of a Better Name",
+                    "genres": [
+                        "Progressive house",
+                        "Electro house",
+                        "Tech house",
+                        "Trance"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Living Things",
+            "artist": "Linkin Park",
+            "duration": "00:36:59",
+            "imageUrl": "linkin-park-living-things.jpg",
+            "labelName": "Warner Bros",
+            "releaseDate": "2012-06-20",
+            "isExplicit": false,
+            "trackCount": 12,
+            "genres": [
+                "Alternative rock",
+                "Electronic rock",
+                "Rap rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Lost in the Echo",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:25",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Lost in the Echo.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "In My Remains",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:20",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "In My Remains.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Burn It Down",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:50",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Burn It Down.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Lies Greed Misery",
+                    "artist": "Linkin Park",
+                    "duration": "00:02:27",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Lies Greed Misery.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "I'll Be Gone",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:31",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Ill Be Gone.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Castle of Glass",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:25",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Castle of Glass.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Victimized",
+                    "artist": "Linkin Park",
+                    "duration": "00:01:46",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Victimized.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Roads Untraveled",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:49",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Roads Untraveled.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Skin to Bone",
+                    "artist": "Linkin Park",
+                    "duration": "00:02:48",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Skin to Bone.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Until It Breaks",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:43",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Until It Breaks.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Tinfoil",
+                    "artist": "Linkin Park",
+                    "duration": "00:01:11",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Tinfoil.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                },
+                {
+                    "name": "Powerless",
+                    "artist": "Linkin Park",
+                    "duration": "00:03:44",
+                    "imageUrl": "linkin-park-living-things.jpg",
+                    "sourceUrl": "Powerless.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2012-06-20",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Living Things",
+                    "genres": [
+                        "Alternative rock",
+                        "Electronic rock",
+                        "Rap rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Whatever People Say I Am, That's What I'm Not",
+            "artist": "Arctic Monkeys",
+            "duration": "00:40:56",
+            "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+            "labelName": "Domino",
+            "releaseDate": "2006-01-23",
+            "isExplicit": false,
+            "trackCount": 13,
+            "genres": [
+                "Indie rock",
+                "Garage rock revival"
+            ],
+            "tracks": [
+                {
+                    "name": "The View from the Afternoon",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:38",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "The View from the Afternoon.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "I Bet You Look Good on the Dancefloor",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:53",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "I Bet You Look Good on the Dancefloor.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Fake Tales of San Francisco",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:57",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Fake Tales of San Francisco.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Dancing Shoes",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:21",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Dancing Shoes.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "You Probably Couldn't See for the Lights But You Were Staring Straight at Me",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:10",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "You Probably Couldnt See for the Lights But You Were Staring Straight at Me.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Still Take You Home",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:53",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Still Take You Home.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Riot Van",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:14",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Riot Van.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Red Light Indicates Doors Are Secured",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:23",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Red Light Indicates Doors Are Secured.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Mardy Bum",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:55",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Mardy Bum.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "Perhaps Vampires is a Bit Strong But...",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:28",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "Perhaps Vampires is a Bit Strong But.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "When the Sun Goes Down",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:20",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "When the Sun Goes Down.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "From the Ritz to the Rubble",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:13",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "From the Ritz to the Rubble.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                },
+                {
+                    "name": "A Certain Romance",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:05:31",
+                    "imageUrl": "arctic-monkeys-whatever-people-say-i-am-thats-what-im-not.jpg",
+                    "sourceUrl": "A Certain Romance.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-01-23",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Whatever People Say I Am, That's What I'm Not",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock revival"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Favourite Worst Nightmare",
+            "artist": "Arctic Monkeys",
+            "duration": "00:37:34",
+            "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+            "labelName": "Domino",
+            "releaseDate": "2007-04-18",
+            "isExplicit": false,
+            "trackCount": 12,
+            "genres": [
+                "Indie rock",
+                "Post-punk revival"
+            ],
+            "tracks": [
+                {
+                    "name": "Brianstorm",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:50",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Brianstorm.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Teddy Picker",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:43",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Teddy Picker.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "D Is for Dangerous",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:16",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "D Is for Dangerous.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Balaclava",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:49",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Balaclava.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Fluorescent Adolescent",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:57",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Fluorescent Adolescent.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Only Ones Who Know",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:02",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Only Ones Who Know.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Do Me a Favour",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:27",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Do Me a Favour.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "This House Is a Circus",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:09",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "This House Is a Circus.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "If You Were There, Beware",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:34",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "If You Were There Beware.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "The Bad Thing",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:23",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "The Bad Thing.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Old Yellow Bricks",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:11",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "Old Yellow Bricks.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "505",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:13",
+                    "imageUrl": "arctic-monkeys-favourite-worst-nightmare.jpg",
+                    "sourceUrl": "505.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2007-04-18",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Favourite Worst Nightmare",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Humbug",
+            "artist": "Arctic Monkeys",
+            "duration": "00:39:20",
+            "imageUrl": "arctic-monkeys-humbug.jpg",
+            "labelName": "Domino",
+            "releaseDate": "2009-08-19",
+            "isExplicit": false,
+            "trackCount": 10,
+            "genres": [
+                "Indie rock",
+                "Stoner rock",
+                "Desert rock",
+                "Psychedelic rock"
+            ],
+            "tracks": [
+                {
+                    "name": "My Propeller",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:27",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "My Propeller.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Crying Lightning",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:43",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Crying Lightning.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Dangerous Animals",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:30",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Dangerous Animals.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Secret Door",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:43",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Secret Door.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Potion Approaching",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:32",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Potion Approaching.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Fire and the Thud",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:57",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Fire and the Thud.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Cornerstone",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:18",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Cornerstone.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Dance Little Liar",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:43",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Dance Little Liar.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Pretty Visitors",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:40",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "Pretty Visitors.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "The Jeweller's Hands",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:05:42",
+                    "imageUrl": "arctic-monkeys-humbug.jpg",
+                    "sourceUrl": "The Jewellers Hands.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2009-08-19",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Humbug",
+                    "genres": [
+                        "Indie rock",
+                        "Stoner rock",
+                        "Desert rock",
+                        "Psychedelic rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Suck It and See",
+            "artist": "Arctic Monkeys",
+            "duration": "00:40:05",
+            "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+            "labelName": "Domino",
+            "releaseDate": "2011-06-06",
+            "isExplicit": false,
+            "trackCount": 12,
+            "genres": [
+                "Indie rock",
+                "Psychedelic rock",
+                "Post-punk revival"
+            ],
+            "tracks": [
+                {
+                    "name": "She's Thunderstorms",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:55",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Shes Thunderstorms.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Black Treacle",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:35",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Black Treacle.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Brick by Brick",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:59",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Brick by Brick.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "The Hellcat Spangled Shalalala",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:00",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "The Hellcat Spangled Shalalala.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Don't Sit Down 'Cause I've Moved Your Chair",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:04",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Dont Sit Down Cause Ive Moved Your Chair.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Library Pictures",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:22",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Library Pictures.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "All My Own Stunts",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:52",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "All My Own Stunts.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Reckless Serenade",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:43",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Reckless Serenade.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Piledriver Waltz",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:24",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Piledriver Waltz.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Love is a Laserquest",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:12",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Love is a Laserquest.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "Suck It and See",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:46",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Suck It and See.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                },
+                {
+                    "name": "That's Where You're Wrong",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:17",
+                    "imageUrl": "arctic-monkeys-suck-it-and-see.jpg",
+                    "sourceUrl": "Thats Where Youre Wrong.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2011-06-06",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Suck It and See",
+                    "genres": [
+                        "Indie rock",
+                        "Psychedelic rock",
+                        "Post-punk revival"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AM",
+            "artist": "Arctic Monkeys",
+            "duration": "00:41:43",
+            "imageUrl": "arctic-monkeys-am.jpg",
+            "labelName": "Domino",
+            "releaseDate": "2013-09-09",
+            "isExplicit": false,
+            "trackCount": 12,
+            "genres": [
+                "Indie rock",
+                "Hard rock",
+                "Psychedelic rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Do I Wanna Know?",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:32",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Do I Wanna Know.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-06-19",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "R U Mine?",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:20",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "R U Mine.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2012-02-27",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "One for the Road",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:26",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "One for the Road.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-12-09",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Arabella",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:27",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Arabella.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2014-01-28",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "I Want It All",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:04",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "I Want It All.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "No.1 Party Anthem",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:03",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "No1 Party Anthem.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Mad Sounds",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:35",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Mad Sounds.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Fireside",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:01",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Fireside.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Why'd You Only Call Me When You're High?",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:42",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Whyd You Only Call Me When Youre High.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-08-11",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Snap Out of It",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:12",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Snap Out of It.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2014-06-09",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "Knee Socks",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:17",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "Knee Socks.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                },
+                {
+                    "name": "I Wanna Be Yours",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:04",
+                    "imageUrl": "arctic-monkeys-am.jpg",
+                    "sourceUrl": "I Wanna Be Yours.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "AM",
+                    "genres": [
+                        "Indie rock",
+                        "Hard rock",
+                        "Psychedelic rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beneath the Boardwalk",
+            "artist": "Arctic Monkeys",
+            "duration": "00:52:29",
+            "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+            "labelName": null,
+            "releaseDate": "2004-01-01",
+            "isExplicit": false,
+            "trackCount": 18,
+            "genres": [
+                "Indie rock",
+                "Garage rock",
+                "Post-punk revival",
+                "Lo-fi"
+            ],
+            "tracks": [
+                {
+                    "name": "A Certain Romance",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:05:24",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "A Certain Romance.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Bigger Boys and Stolen Sweethearts",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:52",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Bigger Boys and Stolen Sweethearts.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Choo Choo",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:08",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Choo Choo.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Cigarette Smoke",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:56",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Cigarette Smoke.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Dancin' Shoes",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:25",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Dancin Shoes.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Fake Tales of San Francisco",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:04",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Fake Tales of San Francisco.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Knock a Door Run",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:04:27",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Knock a Door Run.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Mardy Bum",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:53",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Mardy Bum.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "On the Run From the MI5",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:01:43",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "On the Run From the MI5.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Riot Van",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:15",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Riot Van.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Scummy",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:22",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Scummy.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Still Take You Home",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:09",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Still Take You Home.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Wavin' Bye to the Train or the Bus",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:03",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Wavin Bye to the Train or the Bus.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Bet You Look Good on the Dancefloor",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:52",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Bet You Look Good on the Dancefloor.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Stickin' to the Floor",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:00",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Stickin to the Floor.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 15,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Space Invaders",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:42",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Space Invaders.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 16,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Curtains Closed",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:10",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Curtains Closed.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 17,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Ravey Ravey Ravey Club (live)",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:04",
+                    "imageUrl": "arctic-monkeys-beneath-the-boardwalk.jpg",
+                    "sourceUrl": "Ravey Ravey Ravey Club live.mp3",
+                    "labelName": null,
+                    "releaseDate": "2013-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 18,
+                    "album": "Beneath the Boardwalk",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock",
+                        "Post-punk revival",
+                        "Lo-fi"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Five Minutes with Arctic Monkeys",
+            "artist": "Arctic Monkeys",
+            "duration": "00:06:11",
+            "imageUrl": "arctic-monkeys-five-minutes-with-arctic-monkeys.jpg",
+            "labelName": "Bang Bang Recordings",
+            "releaseDate": "2005-05-30",
+            "isExplicit": false,
+            "trackCount": 2,
+            "genres": [
+                "Indie rock",
+                "Garage rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Fake Tales of San Francisco",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:00",
+                    "imageUrl": "arctic-monkeys-five-minutes-with-arctic-monkeys.jpg",
+                    "sourceUrl": "Fake Tales of San Francisco.mp3",
+                    "labelName": "Bang Bang Recordings",
+                    "releaseDate": "2005-05-30",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Five Minutes with Arctic Monkeys",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock"
+                    ]
+                },
+                {
+                    "name": "From the Ritz to the Rubble",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:11",
+                    "imageUrl": "arctic-monkeys-five-minutes-with-arctic-monkeys.jpg",
+                    "sourceUrl": "From the Ritz to the Rubble.mp3",
+                    "labelName": "Bang Bang Recordings",
+                    "releaseDate": "2005-05-30",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Five Minutes with Arctic Monkeys",
+                    "genres": [
+                        "Indie rock",
+                        "Garage rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Who the Fuck Are Arctic Monkeys?",
+            "artist": "Arctic Monkeys",
+            "duration": "00:18:51",
+            "imageUrl": "arctic-monkeys-who-the-fuck-are-arctic-monkeys.jpg",
+            "labelName": "Domino",
+            "releaseDate": "2006-04-24",
+            "isExplicit": false,
+            "trackCount": 5,
+            "genres": [
+                "Indie rock",
+                "Post-punk revival",
+                "Garage rock"
+            ],
+            "tracks": [
+                {
+                    "name": "The View from the Afternoon",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:38",
+                    "imageUrl": "arctic-monkeys-who-the-fuck-are-arctic-monkeys.jpg",
+                    "sourceUrl": "The View from the Afternoon.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-04-24",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Who the Fuck Are Arctic Monkeys?",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival",
+                        "Garage rock"
+                    ]
+                },
+                {
+                    "name": "Cigarette Smoker Fiona",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:02:56",
+                    "imageUrl": "arctic-monkeys-who-the-fuck-are-arctic-monkeys.jpg",
+                    "sourceUrl": "Cigarette Smoker Fiona.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-04-24",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Who the Fuck Are Arctic Monkeys?",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival",
+                        "Garage rock"
+                    ]
+                },
+                {
+                    "name": "No Buses",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:03:17",
+                    "imageUrl": "arctic-monkeys-who-the-fuck-are-arctic-monkeys.jpg",
+                    "sourceUrl": "No Buses.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-04-24",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Who the Fuck Are Arctic Monkeys?",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival",
+                        "Garage rock"
+                    ]
+                },
+                {
+                    "name": "Who the Fuck Are Arctic Monkeys?",
+                    "artist": "Arctic Monkeys",
+                    "duration": "00:05:36",
+                    "imageUrl": "arctic-monkeys-who-the-fuck-are-arctic-monkeys.jpg",
+                    "sourceUrl": "Who the Fuck Are Arctic Monkeys.mp3",
+                    "labelName": "Domino",
+                    "releaseDate": "2006-04-24",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Who the Fuck Are Arctic Monkeys?",
+                    "genres": [
+                        "Indie rock",
+                        "Post-punk revival",
+                        "Garage rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Homework",
+            "artist": "Daft Punk",
+            "duration": "01:13:53",
+            "imageUrl": "daft-punk-homework.jpg",
+            "labelName": "Virgin",
+            "releaseDate": "1997-01-20",
+            "isExplicit": false,
+            "trackCount": 16,
+            "genres": [
+                "French house",
+                "Techno",
+                "Acid house"
+            ],
+            "tracks": [
+                {
+                    "name": "Daftendirekt",
+                    "artist": "Daft Punk",
+                    "duration": "00:02:44",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Daftendirekt.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "WDPK 83.7 FM",
+                    "artist": "Daft Punk",
+                    "duration": "00:00:28",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "WDPK 837 FM.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Revolution 909",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:26",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Revolution 909.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Revolution 909",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:26",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Revolution 909.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Da Funk",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:28",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Da Funk.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Phœnix",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:55",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Phoenix.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Fresh",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:03",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Fresh.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Around the World",
+                    "artist": "Daft Punk",
+                    "duration": "00:07:08",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Around the World.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Rollin' & Scratchin",
+                    "artist": "Daft Punk",
+                    "duration": "00:07:26",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Rollin and Scratchin.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Teachers",
+                    "artist": "Daft Punk",
+                    "duration": "00:02:52",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Teachers.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "High Fidelity",
+                    "artist": "Daft Punk",
+                    "duration": "00:06:00",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "High Fidelity.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Rock'n Roll",
+                    "artist": "Daft Punk",
+                    "duration": "00:07:32",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Rock n Roll.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Oh Yeah",
+                    "artist": "Daft Punk",
+                    "duration": "00:02:00",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Oh Yeah.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Burnin'",
+                    "artist": "Daft Punk",
+                    "duration": "00:06:53",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Burnin.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Indo Silver Club",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:32",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Indo Silver Club.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Alive",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:15",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Alive.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 15,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                },
+                {
+                    "name": "Funk Ad",
+                    "artist": "Daft Punk",
+                    "duration": "00:00:50",
+                    "imageUrl": "daft-punk-homework.jpg",
+                    "sourceUrl": "Funk Ad.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "1997-01-20",
+                    "isExplicit": false,
+                    "trackNumber": 16,
+                    "album": "Homework",
+                    "genres": [
+                        "French house",
+                        "Techno",
+                        "Acid house"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Discovery",
+            "artist": "Daft Punk",
+            "duration": "01:00:50",
+            "imageUrl": "daft-punk-discovery.jpg",
+            "labelName": "Virgin",
+            "releaseDate": "2001-03-03",
+            "isExplicit": false,
+            "trackCount": 14,
+            "genres": [
+                "French house",
+                "Garage",
+                "Disco"
+            ],
+            "tracks": [
+                {
+                    "name": "One More Time",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:20",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "One More Time.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Aerodynamic",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:27",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Aerodynamic.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Digital Love",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:58",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Digital Love.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Harder, Better, Faster, Stronger",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:45",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Harder Better Faster Stronger.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Crescendolls",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:31",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Crescendolls.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Nightvision",
+                    "artist": "Daft Punk",
+                    "duration": "00:01:44",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Nightvision.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Superheroes",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:57",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Superheroes.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "High Life",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:22",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "High Life.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Something About Us",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:51",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Something About Us.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Voyager",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:47",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Voyager.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Veridis Quo",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:44",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Veridis Quo.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Short Circuit",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:26",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Short Circuit.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Face to Face",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:58",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Face to Face.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                },
+                {
+                    "name": "Too Long",
+                    "artist": "Daft Punk",
+                    "duration": "00:10:00",
+                    "imageUrl": "daft-punk-discovery.jpg",
+                    "sourceUrl": "Too Long.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2001-03-03",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "Discovery",
+                    "genres": [
+                        "French house",
+                        "Garage",
+                        "Disco"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Human After All",
+            "artist": "Daft Punk",
+            "duration": "00:45:33",
+            "imageUrl": "daft-punk-human-after-all.jpg",
+            "labelName": "Virgin",
+            "releaseDate": "2005-03-14",
+            "isExplicit": false,
+            "trackCount": 10,
+            "genres": [
+                "Dance-rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Human After All",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:19",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Human After All.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "The Prime Time of Your Life",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:23",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "The Prime Time of Your Life.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "Robot Rock",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:47",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Robot Rock.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "Steam Machine",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:22",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Steam Machine.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "Make Love",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:48",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Make Love.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "The Brainwasher",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:08",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "The Brainwasher.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "On/Off",
+                    "artist": "Daft Punk",
+                    "duration": "00:00:19",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "On Off.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "Television Rules the Nation",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:47",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Television Rules the Nation.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "Technologic",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:44",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Technologic.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                },
+                {
+                    "name": "Emotion",
+                    "artist": "Daft Punk",
+                    "duration": "00:06:57",
+                    "imageUrl": "daft-punk-human-after-all.jpg",
+                    "sourceUrl": "Emotion.mp3",
+                    "labelName": "Virgin",
+                    "releaseDate": "2005-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Human After All",
+                    "genres": [
+                        "Dance-rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Random Access Memories",
+            "artist": "Daft Punk",
+            "duration": "01:14:24",
+            "imageUrl": "daft-punk-random-access-memories.jpg",
+            "labelName": "Daft life",
+            "releaseDate": "2013-05-17",
+            "isExplicit": false,
+            "trackCount": 13,
+            "genres": [
+                "Disco",
+                "Electronic"
+            ],
+            "tracks": [
+                {
+                    "name": "Give Life Back to Music",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:34",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Give Life Back to Music.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "The Game of Love",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:21",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "The Game of Love.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Giorgio by Moroder",
+                    "artist": "Daft Punk",
+                    "duration": "00:09:04",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Giorgio by Moroder.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Within",
+                    "artist": "Daft Punk",
+                    "duration": "00:03:48",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Within.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Instant Crush",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:37",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Instant Crush.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Lose Yourself to Dance",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:53",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Lose Yourself to Dance.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Touch",
+                    "artist": "Daft Punk",
+                    "duration": "00:08:18",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Touch.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Get Lucky",
+                    "artist": "Daft Punk",
+                    "duration": "00:06:08",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Get Lucky.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Beyond",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:50",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Beyond.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Motherboard",
+                    "artist": "Daft Punk",
+                    "duration": "00:05:41",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Motherboard.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Fragments of Time",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:39",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Fragments of Time.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Doin' It Right",
+                    "artist": "Daft Punk",
+                    "duration": "00:04:11",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Doin It Right.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                },
+                {
+                    "name": "Contact",
+                    "artist": "Daft Punk",
+                    "duration": "00:06:21",
+                    "imageUrl": "daft-punk-random-access-memories.jpg",
+                    "sourceUrl": "Contact.mp3",
+                    "labelName": "Daft life",
+                    "releaseDate": "2013-05-17",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Random Access Memories",
+                    "genres": [
+                        "Disco",
+                        "Electronic"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Atmosphere",
+            "artist": "Kaskade",
+            "duration": "00:51:35",
+            "imageUrl": "kaskade-atmosphere.jpg",
+            "labelName": "Ultra Records",
+            "releaseDate": "2013-09-10",
+            "isExplicit": false,
+            "trackCount": 13,
+            "genres": [
+                "Dance",
+                "Progressive house",
+                "Deep house"
+            ],
+            "tracks": [
+                {
+                    "name": "Last Chance",
+                    "artist": "Kaskade",
+                    "duration": "00:04:18",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Last Chance.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Why Ask Why",
+                    "artist": "Kaskade",
+                    "duration": "00:04:35",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Why Ask Why.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "MIA to LAS",
+                    "artist": "Kaskade",
+                    "duration": "00:03:31",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "MIA to LAS.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "No One Knows Who We Are",
+                    "artist": "Kaskade",
+                    "duration": "00:04:34",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "No One Knows Who We Are.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Feeling the Night",
+                    "artist": "Kaskade",
+                    "duration": "00:04:14",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Feeling the Night.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Take Your Mind Off",
+                    "artist": "Kaskade",
+                    "duration": "00:03:42",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Take Your Mind Off.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "LAX to JFK",
+                    "artist": "Kaskade",
+                    "duration": "00:03:07",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "LAX to JFK.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Atmosphere",
+                    "artist": "Kaskade",
+                    "duration": "00:03:51",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Atmosphere.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Missing You",
+                    "artist": "Kaskade",
+                    "duration": "00:03:51",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Missing You.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Something Something",
+                    "artist": "Kaskade",
+                    "duration": "00:04:51",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Something Something.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "SFO to ORD",
+                    "artist": "Kaskade",
+                    "duration": "00:03:43",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "SFO to ORD.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "Floating",
+                    "artist": "Kaskade",
+                    "duration": "00:03:42",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "Floating.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                },
+                {
+                    "name": "How It Is",
+                    "artist": "Kaskade",
+                    "duration": "00:03:36",
+                    "imageUrl": "kaskade-atmosphere.jpg",
+                    "sourceUrl": "How It Is.mp3",
+                    "labelName": "Ultra Records",
+                    "releaseDate": "2013-09-10",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Atmosphere",
+                    "genres": [
+                        "Dance",
+                        "Progressive house",
+                        "Deep house"
+                    ]
+                }
+            ]
         }
     ]
 }

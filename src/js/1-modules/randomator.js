@@ -19,6 +19,7 @@ var Randomator = (function($) {
             id = Math.floor(Math.random() * albums.length);
         }
 
+        console.log('id: ' + id);
         return albums[id];
     }
 
@@ -37,6 +38,7 @@ var Randomator = (function($) {
             songId = Math.floor(Math.random() * albums[albumId].tracks.length);
         }
 
+        console.log('albumId: ' + albumId + ' songId: ' + songId);
         return albums[albumId].tracks[songId];
     }
 

@@ -37,6 +37,3216 @@
     ],
     "albums": [
         {
+            "name": "Ghost Stories",
+            "artist": "Coldplay",
+            "duration": "00:42:37",
+            "imageUrl": "coldplay-ghost-stories.jpg",
+            "labelName": "Parlophone",
+            "releaseDate": "2014-05-16",
+            "isExplicit": false,
+            "trackCount": 9,
+            "genres": [
+                "Pop",
+                "Synthpop",
+                "Ambient"
+            ],
+            "tracks": [
+                {
+                    "name": "Always in My Head",
+                    "artist": "Coldplay",
+                    "duration": "00:03:36",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "Always in My Head.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "Magic",
+                    "artist": "Coldplay",
+                    "duration": "00:04:45",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "Magic.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "Ink",
+                    "artist": "Coldplay",
+                    "duration": "00:03:48",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "Ink.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "True Love",
+                    "artist": "Coldplay",
+                    "duration": "00:04:05",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "True Love.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "Midnight",
+                    "artist": "Coldplay",
+                    "duration": "00:04:54",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "Midnight.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "Another's Arms",
+                    "artist": "Coldplay",
+                    "duration": "00:03:54",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "Anothers Arms.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "Oceans",
+                    "artist": "Coldplay",
+                    "duration": "00:05:21",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "Oceans.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "A Sky Full of Stars",
+                    "artist": "Coldplay",
+                    "duration": "00:04:28",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "A Sky Full of Stars.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                },
+                {
+                    "name": "O",
+                    "artist": "Coldplay",
+                    "duration": "00:07:47",
+                    "imageUrl": "coldplay-ghost-stories.jpg",
+                    "sourceUrl": "O.mp3",
+                    "labelName": "Parlophone",
+                    "releaseDate": "2014-05-16",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Ghost Stories",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Ambient"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Halcyon Days",
+            "artist": "Ellie Goulding",
+            "duration": "01:19:22",
+            "imageUrl": "ellie-goulding-halcyon-days.jpg",
+            "labelName": "Polydor",
+            "releaseDate": "2013-08-23",
+            "isExplicit": false,
+            "trackCount": 21,
+            "genres": [
+                "Indie pop",
+                "Synthpop",
+                "Dream pop",
+                "Alternative dance"
+            ],
+            "tracks": [
+                {
+                    "name": "Don't Say a Word",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:04:07",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Dont Say a Word.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "My Blood",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:54",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "My Blood.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Anything Could Happen",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:04:47",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Anything Could Happen.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Only You",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:51",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Only You.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Halcyon",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:25",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Halcyon.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Figure 8",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:04:08",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Figure 8.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Joy",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:14",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Joy.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Hanging On",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:22",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Hanging On.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Explosions",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:04:03",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Explosions.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "I Know You Care",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:26",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "I Know You Care.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Atlantis",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:53",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Atlantis.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Dead in the Water",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:04:44",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Dead in the Water.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "I Need Your Love",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:58",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "I Need Your Love.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Burn",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:51",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Burn.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Goodness Gracious",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:46",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Goodness Gracious.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 15,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "You My Everything",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:29",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "You My Everything.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 16,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Hearts Without Chains",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:45",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Hearts Without Chains.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 17,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Stay Awake",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:26",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Stay Awake.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 18,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Under Control",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:04:06",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Under Control.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 19,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "Flashlight",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:03:33",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "Flashlight.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 20,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                },
+                {
+                    "name": "How Long Will I Love You",
+                    "artist": "Ellie Goulding",
+                    "duration": "00:02:34",
+                    "imageUrl": "ellie-goulding-halcyon-days.jpg",
+                    "sourceUrl": "How Long Will I Love You.mp3",
+                    "labelName": "Polydor",
+                    "releaseDate": "2013-08-23",
+                    "isExplicit": false,
+                    "trackNumber": 21,
+                    "album": "Halcyon Days",
+                    "genres": [
+                        "Indie pop",
+                        "Synthpop",
+                        "Dream pop",
+                        "Alternative dance"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FIDLAR",
+            "artist": "FIDLAR",
+            "duration": "00:36:30",
+            "imageUrl": "fidlar-fidlar.jpg",
+            "labelName": "Wichita Recordings",
+            "releaseDate": "2013-01-22",
+            "isExplicit": false,
+            "trackCount": 14,
+            "genres": [
+                "Skate punk",
+                "Garage punk",
+                "Surf rock",
+                "Garage rock",
+                "Lo-fi"
+            ],
+            "tracks": [
+                {
+                    "name": "Cheap Beer",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:22",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Cheap Beer.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Stoked and Broke",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:02",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Stoked and Broke.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "White on White",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:54",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "White on White.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "No Waves",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:14",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "No Waves.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Whore",
+                    "artist": "FIDLAR",
+                    "duration": "00:03:40",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Whore.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Max Can't Surf",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:39",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Max Cant Surf.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Blackout Stout",
+                    "artist": "FIDLAR",
+                    "duration": "00:03:07",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Blackout Stout.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Wake Bake Skate",
+                    "artist": "FIDLAR",
+                    "duration": "00:01:44",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Wake Bake Skate.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Gimmie Something",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:12",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Gimmie Something.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "5 to 9",
+                    "artist": "FIDLAR",
+                    "duration": "00:01:08",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "5 to 9.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "LDA",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:26",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "LDA.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Paycheck",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:54",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Paycheck.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Wait For The Man",
+                    "artist": "FIDLAR",
+                    "duration": "00:02:10",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Wait For The Man.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                },
+                {
+                    "name": "Cocaine",
+                    "artist": "FIDLAR",
+                    "duration": "00:07:28",
+                    "imageUrl": "fidlar-fidlar.jpg",
+                    "sourceUrl": "Cocaine.mp3",
+                    "labelName": "Wichita Recordings",
+                    "releaseDate": "2013-01-22",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "FIDLAR",
+                    "genres": [
+                        "Skate punk",
+                        "Garage punk",
+                        "Surf rock",
+                        "Garage rock",
+                        "Lo-fi"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "American Idiot",
+            "artist": "Green Day",
+            "duration": "00:57:12",
+            "imageUrl": "green-day-american-idiot.jpg",
+            "labelName": "Reprise",
+            "releaseDate": "2004-09-20",
+            "isExplicit": false,
+            "trackCount": 13,
+            "genres": [
+                "Pop punk",
+                "Alternative rock",
+                "Punk rock"
+            ],
+            "tracks": [
+                {
+                    "name": "American Idiot",
+                    "artist": "Green Day",
+                    "duration": "00:02:54",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "American Idiot.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Jesus of Suburbia",
+                    "artist": "Green Day",
+                    "duration": "00:09:08",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Jesus of Suburbia.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Holiday",
+                    "artist": "Green Day",
+                    "duration": "00:03:52",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Holiday.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Boulevard of Broken Dreams",
+                    "artist": "Green Day",
+                    "duration": "00:04:20",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Boulevard of Broken Dreams.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Are We the Waiting",
+                    "artist": "Green Day",
+                    "duration": "00:02:42",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Are We the Waiting.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "St. Jimmy",
+                    "artist": "Green Day",
+                    "duration": "00:02:56",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "St Jimmy.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Give Me Novacaine",
+                    "artist": "Green Day",
+                    "duration": "00:03:25",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Give Me Novacaine.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "She's a Rebel",
+                    "artist": "Green Day",
+                    "duration": "00:02:00",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Shes a Rebel.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Extraordinary Girl",
+                    "artist": "Green Day",
+                    "duration": "00:03:33",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Extraordinary Girl.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Letterbomb",
+                    "artist": "Green Day",
+                    "duration": "00:04:05",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Letterbomb.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Wake Me Up When September Ends",
+                    "artist": "Green Day",
+                    "duration": "00:04:45",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Wake Me Up When September Ends.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Homecoming",
+                    "artist": "Green Day",
+                    "duration": "00:09:18",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Homecoming.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                },
+                {
+                    "name": "Whatsername",
+                    "artist": "Green Day",
+                    "duration": "00:04:14",
+                    "imageUrl": "green-day-american-idiot.jpg",
+                    "sourceUrl": "Whatsername.mp3",
+                    "labelName": "Reprise",
+                    "releaseDate": "2004-09-20",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "American Idiot",
+                    "genres": [
+                        "Pop punk",
+                        "Alternative rock",
+                        "Punk rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Future",
+            "artist": "Klaypex",
+            "duration": "00:15:19",
+            "imageUrl": "klaypex-the-future.jpg",
+            "labelName": "Self published",
+            "releaseDate": "2015-04-28",
+            "isExplicit": false,
+            "trackCount": 5,
+            "genres": [
+                "Future funk",
+                "Dance"
+            ],
+            "tracks": [
+                {
+                    "name": "Intro",
+                    "artist": "Klaypex",
+                    "duration": "00:01:18",
+                    "imageUrl": "klaypex-the-future.jpg",
+                    "sourceUrl": "Intro.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-04-28",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "The Future",
+                    "genres": [
+                        "Future funk",
+                        "Dance"
+                    ]
+                },
+                {
+                    "name": "Satellites",
+                    "artist": "Klaypex",
+                    "duration": "00:03:57",
+                    "imageUrl": "klaypex-the-future.jpg",
+                    "sourceUrl": "Satellites.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-04-28",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "The Future",
+                    "genres": [
+                        "Future funk",
+                        "Dance"
+                    ]
+                },
+                {
+                    "name": "Robot Love",
+                    "artist": "Klaypex",
+                    "duration": "00:03:51",
+                    "imageUrl": "klaypex-the-future.jpg",
+                    "sourceUrl": "Robot Love.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-04-28",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "The Future",
+                    "genres": [
+                        "Future funk",
+                        "Dance"
+                    ]
+                },
+                {
+                    "name": "New Kids",
+                    "artist": "Klaypex",
+                    "duration": "00:03:39",
+                    "imageUrl": "klaypex-the-future.jpg",
+                    "sourceUrl": "New Kids.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-04-28",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "The Future",
+                    "genres": [
+                        "Future funk",
+                        "Dance"
+                    ]
+                },
+                {
+                    "name": "Home",
+                    "artist": "Klaypex",
+                    "duration": "00:03:54",
+                    "imageUrl": "klaypex-the-future.jpg",
+                    "sourceUrl": "Home.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-04-28",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "The Future",
+                    "genres": [
+                        "Future funk",
+                        "Dance"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Fame Monster",
+            "artist": "Lady Gaga",
+            "duration": "01:24:28",
+            "imageUrl": "lady-gaga-the-fame-monster.jpg",
+            "labelName": "Streamline",
+            "releaseDate": "2009-11-18",
+            "isExplicit": false,
+            "trackCount": 14,
+            "genres": [
+                "Pop",
+                "Synthpop",
+                "Disco",
+                "Glam rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Just Dance",
+                    "artist": "Lady Gaga",
+                    "duration": "00:04:02",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Just Dance.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "LoveGame",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:36",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "LoveGame.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Paparazzi",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:28",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Paparazzi.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Poker Face",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:57",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Poker Face.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Eh, Eh (Nothing Else I Can Say)",
+                    "artist": "Lady Gaga",
+                    "duration": "00:02:55",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Eh Eh Nothing Else I Can Say.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Beautiful, Dirty, Rich",
+                    "artist": "Lady Gaga",
+                    "duration": "00:02:52",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Beautiful Dirty Rich.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "The Fame",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:42",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "The Fame.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Money Honey",
+                    "artist": "Lady Gaga",
+                    "duration": "00:02:50",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Money Honey.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Starstruck",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:37",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Starstruck.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Boys Boys Boys",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:20",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Boys Boys Boys.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Paper Gangsta",
+                    "artist": "Lady Gaga",
+                    "duration": "00:04:23",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Paper Gangsta.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Brown Eyes",
+                    "artist": "Lady Gaga",
+                    "duration": "00:04:03",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Brown Eyes.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "I Like It Rough",
+                    "artist": "Lady Gaga",
+                    "duration": "00:03:22",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "I Like It Rough.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                },
+                {
+                    "name": "Summerboy",
+                    "artist": "Lady Gaga",
+                    "duration": "00:04:13",
+                    "imageUrl": "lady-gaga-the-fame-monster.jpg",
+                    "sourceUrl": "Summerboy.mp3",
+                    "labelName": "Streamline",
+                    "releaseDate": "2009-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "The Fame Monster",
+                    "genres": [
+                        "Pop",
+                        "Synthpop",
+                        "Disco",
+                        "Glam rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wilder Mind",
+            "artist": "Mumford & Sons",
+            "duration": "00:47:35",
+            "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+            "labelName": "Gentlemen of the Road",
+            "releaseDate": "2015-05-04",
+            "isExplicit": false,
+            "trackCount": 12,
+            "genres": [
+                "Alternative rock",
+                "indie rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Tompkins Square Park",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:05:11",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Tompkins Square Park.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Believe",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:03:41",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Believe.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "The Wolf",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:03:41",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "The Wolf.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Wilder Mind",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:04:38",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Wilder Mind.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Just Smoke",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:03:10",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Just Smoke.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Monster",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:03:56",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Monster.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Snake Eyes",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:04:08",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Snake Eyes.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Broad-Shouldered Beasts",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:04:20",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Broad-Shouldered Beasts.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Cold Arms",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:02:49",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Cold Arms.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Ditmas",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:03:38",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Ditmas.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Only Love",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:04:36",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Only Love.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                },
+                {
+                    "name": "Hot Gates",
+                    "artist": "Mumford & Sons",
+                    "duration": "00:04:47",
+                    "imageUrl": "mumford-and-sons-wilder-mind.jpg",
+                    "sourceUrl": "Hot Gates.mp3",
+                    "labelName": "Gentlemen of the Road",
+                    "releaseDate": "2015-05-04",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Wilder Mind",
+                    "genres": [
+                        "Alternative rock",
+                        "indie rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Dark Side of the Moon",
+            "artist": "Pink Floyd",
+            "duration": "00:42:49",
+            "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+            "labelName": "Harvest",
+            "releaseDate": "1973-03-01",
+            "isExplicit": false,
+            "trackCount": 10,
+            "genres": [
+                "Progressive rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Speak to Me",
+                    "artist": "Pink Floyd",
+                    "duration": "00:01:30",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Speak to Me.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Breathe",
+                    "artist": "Pink Floyd",
+                    "duration": "00:02:43",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Breathe.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "On the Run",
+                    "artist": "Pink Floyd",
+                    "duration": "00:03:30",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "On the Run.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Time",
+                    "artist": "Pink Floyd",
+                    "duration": "00:06:53",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Time.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "The Great Gig in the Sky",
+                    "artist": "Pink Floyd",
+                    "duration": "00:04:15",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "The Great Gig in the Sky.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Money",
+                    "artist": "Pink Floyd",
+                    "duration": "00:06:30",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Money.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Us and Them",
+                    "artist": "Pink Floyd",
+                    "duration": "00:07:51",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Us and Them.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Any Colour You Like",
+                    "artist": "Pink Floyd",
+                    "duration": "00:03:24",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Any Colour You Like.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Brain Damage",
+                    "artist": "Pink Floyd",
+                    "duration": "00:03:50",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Brain Damage.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                },
+                {
+                    "name": "Eclipse",
+                    "artist": "Pink Floyd",
+                    "duration": "00:01:45",
+                    "imageUrl": "pink-floyd-the-dark-side-of-the-moon.jpg",
+                    "sourceUrl": "Eclipse.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "1973-03-01",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "The Dark Side of the Moon",
+                    "genres": [
+                        "Progressive rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "I'm with You",
+            "artist": "Red Hot Chili Peppers",
+            "duration": "00:59:21",
+            "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+            "labelName": "Warner Bros",
+            "releaseDate": "2011-08-29",
+            "isExplicit": false,
+            "trackCount": 14,
+            "genres": [
+                "Funk rock",
+                "Alternative rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Monarchy of Roses",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:04:12",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Monarchy of Roses.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Factory of Faith",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:04:21",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Factory of Faith.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Brendan's Death Song",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:05:39",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Brendans Death Song.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Ethiopia",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:05:50",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Ethiopia.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Annie Wants a Baby",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:03:40",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Annie Wants a Baby.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Look Around",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:03:27",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Look Around.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "The Adventures of Rain Dance Maggie",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:04:43",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "The Adventures of Rain Dance Maggie.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Did I Let You Know",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:04:21",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Did I Let You Know.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Goodbye Hooray",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:03:52",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Goodbye Hooray.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Happiness Loves Company",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:03:33",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Happiness Loves Company.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Police Station",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:05:35",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Police Station.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Even You Brutus?",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:04:01",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Even You Brutus.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Meet Me at the Corner",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:04:22",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Meet Me at the Corner.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                },
+                {
+                    "name": "Dance, Dance, Dance",
+                    "artist": "Red Hot Chili Peppers",
+                    "duration": "00:03:45",
+                    "imageUrl": "red-hot-chili-peppers-im-with-you.jpg",
+                    "sourceUrl": "Dance Dance Dance.mp3",
+                    "labelName": "Warner Bros",
+                    "releaseDate": "2011-08-29",
+                    "isExplicit": false,
+                    "trackNumber": 14,
+                    "album": "I'm with You",
+                    "genres": [
+                        "Funk rock",
+                        "Alternative rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fragile Figures",
+            "artist": "Secrets",
+            "duration": "00:37:03",
+            "imageUrl": "secrets-fragile-figures.jpg",
+            "labelName": "Velocity",
+            "releaseDate": "2013-07-23",
+            "isExplicit": false,
+            "trackCount": 11,
+            "genres": [
+                "Post-hardcore",
+                "Metalcore"
+            ],
+            "tracks": [
+                {
+                    "name": "How We Survive",
+                    "artist": "Secrets",
+                    "duration": "00:03:14",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "How We Survive.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Ready for Repair",
+                    "artist": "Secrets",
+                    "duration": "00:03:16",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Ready for Repair.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Forever and Never",
+                    "artist": "Secrets",
+                    "duration": "00:03:29",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Forever and Never.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Artist Vs. Who?",
+                    "artist": "Secrets",
+                    "duration": "00:03:29",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Artist Vs Who.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Wasted Youth, Pt. 1",
+                    "artist": "Secrets",
+                    "duration": "00:03:14",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Wasted Youth, Pt 1.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "The Architect, Pt. 2",
+                    "artist": "Secrets",
+                    "duration": "00:03:05",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "The Architect Pt 2.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Maybe Next May",
+                    "artist": "Secrets",
+                    "duration": "00:03:04",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Maybe Next May.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Fragile Figures",
+                    "artist": "Secrets",
+                    "duration": "00:03:20",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Fragile Figures.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Live Together, Die Alone",
+                    "artist": "Secrets",
+                    "duration": "00:03:25",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Live Together Die Alone.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Infinite Escape",
+                    "artist": "Secrets",
+                    "duration": "00:03:38",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Infinite Escape.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                },
+                {
+                    "name": "Sleep Well, Darling",
+                    "artist": "Secrets",
+                    "duration": "00:03:49",
+                    "imageUrl": "secrets-fragile-figures.jpg",
+                    "sourceUrl": "Sleep Well Darling.mp3",
+                    "labelName": "Velocity",
+                    "releaseDate": "2013-07-23",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Fragile Figures",
+                    "genres": [
+                        "Post-hardcore",
+                        "Metalcore"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Recess",
+            "artist": "Skrillex",
+            "duration": "00:46:34",
+            "imageUrl": "skrillex-recess.jpg",
+            "labelName": "Asylum",
+            "releaseDate": "2014-03-14",
+            "isExplicit": false,
+            "trackCount": 11,
+            "genres": [
+                "EDM",
+                "Dubstep"
+            ],
+            "tracks": [
+                {
+                    "name": "All Is Fair in Love and Brostep",
+                    "artist": "Skrillex",
+                    "duration": "00:04:08",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "All Is Fair in Love and Brostep.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Recess",
+                    "artist": "Skrillex",
+                    "duration": "00:03:57",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Recess.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Stranger",
+                    "artist": "Skrillex",
+                    "duration": "00:04:49",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Stranger.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Try It Out",
+                    "artist": "Skrillex",
+                    "duration": "00:03:49",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Try It Out.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Coast Is Clear",
+                    "artist": "Skrillex",
+                    "duration": "00:04:03",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Coast Is Clear.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Dirty Vibe",
+                    "artist": "Skrillex",
+                    "duration": "00:03:26",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Dirty Vibe.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Ragga Bomb",
+                    "artist": "Skrillex",
+                    "duration": "00:04:18",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Ragga Bomb.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Doompy Poomp",
+                    "artist": "Skrillex",
+                    "duration": "00:03:25",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Doompy Poomp.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Fuck That",
+                    "artist": "Skrillex",
+                    "duration": "00:03:50",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Fuck That.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Ease My Mind",
+                    "artist": "Skrillex",
+                    "duration": "00:05:02",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Ease My Mind.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                },
+                {
+                    "name": "Fire Away",
+                    "artist": "Skrillex",
+                    "duration": "00:05:42",
+                    "imageUrl": "skrillex-recess.jpg",
+                    "sourceUrl": "Fire Away.mp3",
+                    "labelName": "Asylum",
+                    "releaseDate": "2014-03-14",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Recess",
+                    "genres": [
+                        "EDM",
+                        "Dubstep"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Save Me, San Francisco",
+            "artist": "Train",
+            "duration": "00:43:23",
+            "imageUrl": "train-save-me-san-francisco.jpg",
+            "labelName": "Columbia",
+            "releaseDate": "2009-10-27",
+            "isExplicit": false,
+            "trackCount": 11,
+            "genres": [
+                "Rock",
+                "Pop rock",
+                "Roots rock"
+            ],
+            "tracks": [
+                {
+                    "name": "Save Me, San Francisco",
+                    "artist": "Train",
+                    "duration": "00:04:09",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Save Me San Francisco.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "Hey, Soul Sister",
+                    "artist": "Train",
+                    "duration": "00:03:36",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Hey Soul Sister.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "I Got You",
+                    "artist": "Train",
+                    "duration": "00:03:47",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "I Got You.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "Parachute",
+                    "artist": "Train",
+                    "duration": "00:03:29",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Parachute.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "This Ain't Goodbye",
+                    "artist": "Train",
+                    "duration": "00:04:23",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "This Aint Goodbye.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "If It's Love",
+                    "artist": "Train",
+                    "duration": "00:03:59",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "If Its Love.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "You Already Know",
+                    "artist": "Train",
+                    "duration": "00:04:40",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "You Already Know.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "Words",
+                    "artist": "Train",
+                    "duration": "00:03:27",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Words.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "Brick by Brick",
+                    "artist": "Train",
+                    "duration": "00:03:37",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Brick by Brick.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "Breakfast in Bed",
+                    "artist": "Train",
+                    "duration": "00:04:51",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Breakfast in Bed.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                },
+                {
+                    "name": "Marry Me",
+                    "artist": "Train",
+                    "duration": "00:03:25",
+                    "imageUrl": "train-save-me-san-francisco.jpg",
+                    "sourceUrl": "Marry Me.mp3",
+                    "labelName": "Columbia",
+                    "releaseDate": "2009-10-27",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Save Me, San Francisco",
+                    "genres": [
+                        "Rock",
+                        "Pop rock",
+                        "Roots rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "In Waves",
+            "artist": "Trivium",
+            "duration": "00:51:20",
+            "imageUrl": "trivium-in-waves.jpg",
+            "labelName": "Roadrunner",
+            "releaseDate": "2011-08-02",
+            "isExplicit": false,
+            "trackCount": 13,
+            "genres": [
+                "Metalcore",
+                "Melodic Metalcore"
+            ],
+            "tracks": [
+                {
+                    "name": "Capsizing the Sea",
+                    "artist": "Trivium",
+                    "duration": "00:01:30",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Capsizing the Sea.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "In Waves",
+                    "artist": "Trivium",
+                    "duration": "00:05:02",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "In Waves.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Inception of the End",
+                    "artist": "Trivium",
+                    "duration": "00:03:48",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Inception of the End.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Dusk Dismantled",
+                    "artist": "Trivium",
+                    "duration": "00:03:47",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Dusk Dismantled.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Watch the World Burn",
+                    "artist": "Trivium",
+                    "duration": "00:04:53",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Watch the World Burn.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "artist": "Trivium",
+                    "duration": "00:03:27",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Black.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "A Skyline's Severance",
+                    "artist": "Trivium",
+                    "duration": "00:04:51",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "A Skylines Severance.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Built to Fall",
+                    "artist": "Trivium",
+                    "duration": "00:03:08",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Built to Fall.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Caustic Are the Ties That Bind",
+                    "artist": "Trivium",
+                    "duration": "00:05:34",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Caustic Are the Ties That Bind.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Forsake Not the Dream",
+                    "artist": "Trivium",
+                    "duration": "00:05:20",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Forsake Not the Dream.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Chaos Reigns",
+                    "artist": "Trivium",
+                    "duration": "00:04:07",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Chaos Reigns.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Of All These Yesterdays",
+                    "artist": "Trivium",
+                    "duration": "00:04:21",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Of All These Yesterdays.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                },
+                {
+                    "name": "Leaving This World Behind",
+                    "artist": "Trivium",
+                    "duration": "00:01:32",
+                    "imageUrl": "trivium-in-waves.jpg",
+                    "sourceUrl": "Leaving This World Behind.mp3",
+                    "labelName": "Roadrunner",
+                    "releaseDate": "2011-08-02",
+                    "isExplicit": false,
+                    "trackNumber": 13,
+                    "album": "In Waves",
+                    "genres": [
+                        "Metalcore",
+                        "Melodic Metalcore"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Seeds",
+            "artist": "TV on the Radio",
+            "duration": "00:52:43",
+            "imageUrl": "tv-on-the-radio-seeds.jpg",
+            "labelName": "Harvest",
+            "releaseDate": "2014-11-18",
+            "isExplicit": false,
+            "trackCount": 12,
+            "genres": [
+                "Art rock",
+                "Indie rock",
+                "Funk",
+                "Synthpop"
+            ],
+            "tracks": [
+                {
+                    "name": "Quartz",
+                    "artist": "TV on the Radio",
+                    "duration": "00:03:58",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Quartz.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Careful You",
+                    "artist": "TV on the Radio",
+                    "duration": "00:05:12",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Careful You.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Could You",
+                    "artist": "TV on the Radio",
+                    "duration": "00:04:01",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Could You.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Happy Idiot",
+                    "artist": "TV on the Radio",
+                    "duration": "00:03:03",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Happy Idiot.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Test Pilot",
+                    "artist": "TV on the Radio",
+                    "duration": "00:04:41",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Test Pilot.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Love Stained",
+                    "artist": "TV on the Radio",
+                    "duration": "00:04:20",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Love Stained.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 6,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Ride",
+                    "artist": "TV on the Radio",
+                    "duration": "00:06:29",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Ride.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 7,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Right Now",
+                    "artist": "TV on the Radio",
+                    "duration": "00:04:23",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Right Now.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 8,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Winter",
+                    "artist": "TV on the Radio",
+                    "duration": "00:03:41",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Winter.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 9,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Lazerray",
+                    "artist": "TV on the Radio",
+                    "duration": "00:03:37",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Lazerray.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 10,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Trouble",
+                    "artist": "TV on the Radio",
+                    "duration": "00:04:34",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Trouble.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 11,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                },
+                {
+                    "name": "Seeds",
+                    "artist": "TV on the Radio",
+                    "duration": "00:04:44",
+                    "imageUrl": "tv-on-the-radio-seeds.jpg",
+                    "sourceUrl": "Seeds.mp3",
+                    "labelName": "Harvest",
+                    "releaseDate": "2014-11-18",
+                    "isExplicit": false,
+                    "trackNumber": 12,
+                    "album": "Seeds",
+                    "genres": [
+                        "Art rock",
+                        "Indie rock",
+                        "Funk",
+                        "Synthpop"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beginning",
+            "artist": "Watergate",
+            "duration": "00:24:28",
+            "imageUrl": "watergate-beginning.jpg",
+            "labelName": "Self published",
+            "releaseDate": "2015-09-09",
+            "isExplicit": false,
+            "trackCount": 5,
+            "genres": [
+                "Progressive metal",
+                "Metal"
+            ],
+            "tracks": [
+                {
+                    "name": "Primatology",
+                    "artist": "Watergate",
+                    "duration": "00:02:22",
+                    "imageUrl": "watergate-beginning.jpg",
+                    "sourceUrl": "Primatology.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 1,
+                    "album": "Beginning",
+                    "genres": [
+                        "Progressive metal",
+                        "Metal"
+                    ]
+                },
+                {
+                    "name": "Zero",
+                    "artist": "Watergate",
+                    "duration": "00:07:28",
+                    "imageUrl": "watergate-beginning.jpg",
+                    "sourceUrl": "Zero.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 2,
+                    "album": "Beginning",
+                    "genres": [
+                        "Progressive metal",
+                        "Metal"
+                    ]
+                },
+                {
+                    "name": "The Shade of Gears",
+                    "artist": "Watergate",
+                    "duration": "00:06:09",
+                    "imageUrl": "watergate-beginning.jpg",
+                    "sourceUrl": "The Shade of Gears.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 3,
+                    "album": "Beginning",
+                    "genres": [
+                        "Progressive metal",
+                        "Metal"
+                    ]
+                },
+                {
+                    "name": "Tesla's Gift",
+                    "artist": "Watergate",
+                    "duration": "00:03:01",
+                    "imageUrl": "watergate-beginning.jpg",
+                    "sourceUrl": "Teslas Gift.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 4,
+                    "album": "Beginning",
+                    "genres": [
+                        "Progressive metal",
+                        "Metal"
+                    ]
+                },
+                {
+                    "name": "A New World Order",
+                    "artist": "Watergate",
+                    "duration": "00:05:25",
+                    "imageUrl": "watergate-beginning.jpg",
+                    "sourceUrl": "A New World Order.mp3",
+                    "labelName": "Self published",
+                    "releaseDate": "2015-09-09",
+                    "isExplicit": false,
+                    "trackNumber": 5,
+                    "album": "Beginning",
+                    "genres": [
+                        "Progressive metal",
+                        "Metal"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Weapon",
             "artist": "Skinny Puppy",
             "duration": "00:46:14",

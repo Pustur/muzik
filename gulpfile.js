@@ -59,6 +59,7 @@ gulp.task('js', function(){
     return gulp.src([
         config.src + 'js/0-vendor/jquery.min.js',
         config.src + 'js/script.js',
+        config.src + 'js/1-modules/randomator.js',
         config.src + 'js/1-modules/sidebar.js',
         config.src + 'js/1-modules/player.js'
     ])
@@ -77,6 +78,11 @@ gulp.task('img', function(){
     .pipe(gulp.dest(config.dest + 'img'));
 });
 
+gulp.task('db', function(){
+    return gulp.src('./db.json')
+    .pipe(gulp.dest(config.dest));
+});
+
 gulp.task('server', function(){
     connect.server({
         root: config.dest,
@@ -92,4 +98,4 @@ gulp.task('watch', function(){
 });
 
 // Default task
-gulp.task('default', ['html', 'css', 'js', 'img', 'server', 'watch']);
+gulp.task('default', ['html', 'css', 'js', 'img', 'db', 'server', 'watch']);

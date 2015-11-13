@@ -10,10 +10,23 @@ block topbar
     include 1-partials/_topbar
 
 block content
-    include 1-partials/_content
+    include 2-pages-content/_home
 
 block player
     include 1-partials/_player
     
 block scripts
     script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            Randomator.getData(function(data) {
+                var randomSong = Randomator.getSong(data);
+                var img = $('<img>', { 
+                    src: 'img/covers/' + randomSong.imageUrl,
+                    alt: randomSong.album + ' album cover',
+                    width: 300,
+                    height: 300
+                });
+                $('.content').append(img);
+            });
+        });

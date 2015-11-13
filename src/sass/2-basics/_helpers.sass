@@ -21,6 +21,11 @@
     clip: rect(0, 0, 0, 0)
     border: 0
 
+.truncate
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+
 .material-icons
     &.tiny
         font-size: 18px
@@ -33,3 +38,6 @@
 
     &.large
         font-size: 48px
+
+    &.active
+        color: $primary

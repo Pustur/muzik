@@ -7,7 +7,6 @@ $(document).ready(function() {
 
     // Event binding
     $(window).on('resize', function() {
-        console.log(Sidebar.isActive);
         if (Sidebar.isActive() && $(this).innerWidth() >= 1024) {
             Sidebar.hide();
         }

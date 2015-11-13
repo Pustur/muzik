@@ -1,0 +1,21 @@
+.queue-container
+    ul
+        +musicItem()
+        +musicItem()
+        +musicItem()
+        +musicItem()
+        +musicItem()
+        +musicItem()
+        +musicItem()
+        
+    .queue-options-bar
+        button(title="Ripeti canzone corrente").player-button
+            i.material-icons.tiny repeat_one
+        button(title="Ripeti coda").player-button
+            i.material-icons.tiny repeat
+        button(title="Ordine casuale").player-button
+            i.material-icons.tiny shuffle
+        button(title="Converti coda in playlist").player-button
+            i.material-icons.tiny playlist_add
+        button(title="Svuota coda").player-button.delete-button
+            i.material-icons.tiny delete

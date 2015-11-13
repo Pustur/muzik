@@ -1,0 +1,73 @@
+extend 0-layouts/_default
+
+block head
+    title Dettaglio album | Muzik!
+
+block sidebar
+    include 1-partials/_sidebar
+
+block topbar
+    include 1-partials/_topbar
+
+block content
+    include 2-pages-content/_album-detail
+
+block player
+    include 1-partials/_player
+    
+block scripts
+    script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            Randomator.getData(function(data) {
+                var album = Randomator.getAlbum(data),
+                
+                    $hero = $('.hero'),
+                    $img = $hero.find('.cover'),
+                    $title = $hero.find('.title'),
+                    $artist = $hero.find('.artist'),
+                    $info = $hero.find('.info'),
+                    $genres = $hero.find('.genres-paragraph'),
+                    
+                    $songsContainer = $('.songs-container');
+                
+                $hero.css({
+                    backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(img/covers/' + album.imageUrl + ')'
+                });
+                
+                $img.attr({
+                    src: 'img/covers/' + album.imageUrl,
+                    alt: album.album + ' album cover'
+                });
+                
+                $title.text(album.name);
+                
+                $artist.text(album.artist);
+                
+                $info.html(
+                    'Anno: <span>' + album.releaseDate.split('-')[0] + '</span><br>' +
+                    'Numero di canzoni: <span>' + album.tracks.length + '</span><br>' +
+                    'Durata totale: <span>' + album.duration + '</span>' +
+                    (album.isExplicit ? '<br><span>Presenta contenuti espliciti</span>' : '')
+                );
+                                
+                var i, genresString = '';
+                for (i=0; i<album.genres.length; i++) {
+                    genresString += '<a href="#">' + album.genres[i] + '</a>';
+                }
+                $genres.append(genresString);
+                
+                var songsString = '';
+                for (i=0; i<album.tracks.length; i++) {
+                    var song = album.tracks[i];
+                    songsString += '' +
+                        '<tr>' +
+                            '<td>' + (i+1) + '</td>' +
+                            '<td>' + song.name + '</td>' +
+                            '<td>' + song.duration + '</td>' +
+                            '<td><button><i class="material-icons">more_vert</i></button></td>' +
+                        '</tr>';
+                }
+                $songsContainer.html(songsString);
+            });
+        });

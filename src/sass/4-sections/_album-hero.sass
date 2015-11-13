@@ -1,0 +1,67 @@
+.hero
+    display: flex
+    background:
+        size: cover
+        position: 50% 50%
+    padding: ($gutter * 2)
+    color: white
+
+    .hero-button
+        color: white
+        border: 0
+        margin: 0
+        background-color: transparent
+        cursor: pointer
+        display: inline-block
+
+        &:focus
+            outline: none
+
+    .album-cover
+        flex: 0 0 25%
+        margin-right: ($gutter * 2)
+
+        .cover
+            width: 100%
+
+    .details
+        flex-grow: 1
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+        .title
+            font-size: 45px
+            font-weight: 500
+
+        .artist
+            font-size: 24px
+            font-weight: 300
+
+        .info
+            margin-bottom: $gutter
+            line-height: 1.4
+
+            span
+                color: $primary
+
+        .bottom
+            display: flex
+
+            .genres
+                flex-grow: 1
+
+                .genres-paragraph
+                    a
+                        display: inline-block
+                        border-radius: 999px
+                        background-color: $primary
+                        padding: 10px 10px
+                        margin: 4px ($gutter / 2)
+                        color: white
+                        text-decoration: none
+                        font-size: 12px
+
+                        &:hover,
+                        &:focus
+                            background-color: $primary-dark

@@ -1,21 +1,92 @@
+mixin settingsItem(text, icon)
+    li
+        a
+            i.material-icons.tiny #{icon}
+            | #{text}
+
+mixin musicItem()
+    li.song
+        a(href="#")
+            img(src="https://unsplash.it/80/80").thumbnail
+        .details
+            a(href="#" title="Titolo della canzone assolutamente molto lungo").title.truncate Titolo della canzone assolutamente molto lungo
+            a(href="#" title="Nome dell'artista assolutamente molto lungo").artist.truncate Nome dell'artista assolutamente molto lungo
+        button.player-button
+            i.material-icons.tiny more_vert
+        button.player-button
+            i.material-icons.tiny clear
+
 section.player
-    button.player-button
-        i.material-icons.medium fast_rewind
-    button.player-button
-        i.material-icons.large play_arrow
-    button.player-button
-        i.material-icons.medium fast_forward
-        
-    button.player-button
-        i.material-icons.tiny repeat_one
+    button(title="Indietro di uno").player-button
+        i.material-icons.small fast_rewind
+    button(title="Play / pausa").player-button.play-button
+        i.material-icons.medium play_arrow
+    button(title="Avanti di uno").player-button
+        i.material-icons.small fast_forward
 
     .time-container
-        .current-time 0:00:00
-        .time-track
-            .time-past
-        .total-time 9:59:59
+        .times
+            .current-time 0:00:00
+            .total-time 9:59:59
+        .track
+            .time-track
+                .time-past
 
-    button.player-button
+    button.player-button.volume-button
         i.material-icons.tiny volume_up
-    button.player-button
+        .slider-container
+            input(type="range", min="0", max="1", value="1", step="0.01").volume.slider
+    
+    button.player-button.settings-button
         i.material-icons.tiny settings
+        ul.settings-container
+            li
+                a
+                    .special-item
+                        i.material-icons.tiny high_quality
+                        | Qualità
+                    i.material-icons.tiny.arrow keyboard_arrow_right
+                ul.sub-menu
+                    li 
+                        a
+                            div Alta
+                            .number.active 320kbps
+                    li 
+                        a
+                            div Media
+                            .number 192kbps
+                    li 
+                        a
+                            div Bassa
+                            .number 128kbps
+            +settingsItem('Equalizzatore', 'equalizer')
+
+    .song
+        a(href="#")
+            img(src="https://unsplash.it/80/80").thumbnail
+        .details
+            a(href="#" title="Titolo della canzone assolutamente molto lungo").title.truncate Titolo della canzone assolutamente molto lungo
+            a(href="#" title="Nome dell'artista assolutamente molto lungo").artist.truncate Nome dell'artista assolutamente molto lungo
+        button(title="Coda d'ascolto").player-button.queue-button
+            i.material-icons.tiny list
+        .queue-container
+            ul
+                +musicItem()
+                +musicItem()
+                +musicItem()
+                +musicItem()
+                +musicItem()
+                +musicItem()
+                +musicItem()
+                
+            .queue-options-bar
+                button(title="Ripeti canzone corrente").player-button
+                    i.material-icons.tiny repeat_one
+                button(title="Ripeti coda").player-button
+                    i.material-icons.tiny repeat
+                button(title="Ordine casuale").player-button
+                    i.material-icons.tiny shuffle
+                button(title="Converti coda in playlist").player-button
+                    i.material-icons.tiny playlist_add
+                button(title="Svuota coda").player-button.delete-button
+                    i.material-icons.tiny delete

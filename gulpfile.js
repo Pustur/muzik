@@ -58,7 +58,8 @@ gulp.task('css', function(){
 gulp.task('js', function(){
     return gulp.src([
         config.src + 'js/script.js',
-        config.src + 'js/1-modules/sidebar.js'
+        config.src + 'js/1-modules/sidebar.js',
+        config.src + 'js/1-modules/player.js'
     ])
     .pipe(plumber())
     .pipe(concat('script.min.js'))

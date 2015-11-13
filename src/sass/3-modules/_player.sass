@@ -3,55 +3,208 @@ section.player
     background-color: $secondary
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
     display: flex
-    padding: 0 8px
+    padding: 0 0 0 8px
 
     .player-button
+        position: relative
         color: white
         border: 0
+        margin: 0
         background-color: transparent
         cursor: pointer
         display: block
 
+        &:focus
+            outline: none
+
     .time-container
         flex: 0 1 100%
         display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        justify-content: center
         margin: 0 8px
 
-        .current-time,
-        .total-time
-            color: white
-            line-height: $player-height
+        .times
+            margin-bottom: 12px
+            display: flex
+            justify-content: space-between
 
-        .time-track
-            align-self: center
-            width: 100%
-            margin: 0 18px
-            height: 2px
-            background-color: white
+            .current-time,
+            .total-time
+                color: white
+                font-size: 10px
 
-            .time-past
-                width: 30%
-                height: 100%
-                position: relative
-                background-color: $primary
+        .track
+            .time-track
+                width: 100%
+                height: 2px
+                background-color: white
 
-                &::after
-                    content: ' '
-                    display: block
-                    width: 16px
-                    height: 16px
-                    border-radius: 999px
-                    position: absolute
-                    right: -8px
-                    top: -7px
-                    background-color: white
-                    box-shadow: 0 0 4px rgba(black, 0.2)
-                    opacity: 0
-                    transition: opacity 0.3s ease
-                    cursor: pointer
+                .time-past
+                    width: 30%
+                    height: 100%
+                    position: relative
+                    background-color: $primary
+
+                    &::after
+                        content: ' '
+                        display: block
+                        width: 16px
+                        height: 16px
+                        border-radius: 999px
+                        position: absolute
+                        right: -8px
+                        top: -7px
+                        background-color: white
+                        box-shadow: 0 0 4px rgba(black, 0.2)
+                        opacity: 0
+                        transition: opacity 0.3s ease
+                        cursor: pointer
 
         &:hover
             .time-track
                 .time-past
                     &::after
                         opacity: 1
+
+    .slider-container
+        display: none
+        width: 150px
+        height: 30px
+        background-color: $secondary-dark
+        position: absolute
+        padding: 5px
+        top: -90px
+        left: -60px
+        transform: rotate(-90deg)
+
+    .settings-button
+        padding-right: 14px
+
+    .settings-container
+        display: none
+        position: absolute
+        bottom: $player-height
+        right: 0
+        width: 126px
+        background: $secondary-dark
+
+        & > li
+            position: relative
+
+            a
+                height: $sub-menu-height
+                line-height: $sub-menu-height
+                display: block
+                text-align: left
+                box-sizing: content-box
+                box-shadow: inset 0 -1px 0 rgba(white, 0.1)
+
+
+                &:hover,
+                &:focus
+                    background-color: $secondary
+
+                .material-icons
+                    margin: 0 8px
+                    vertical-align: middle
+
+            &:first-child
+                a
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+
+                    .arrow
+                        color: $gray-54
+
+                &:hover
+                    .sub-menu
+                        display: block
+
+            .sub-menu
+                z-index: 25
+                background-color: $secondary-dark
+                display: none
+                position: absolute
+                bottom: 0
+                left: 126px
+                width: 126px
+
+                & > li
+                    a
+                        padding: 0 8px
+                        height: $sub-menu-height
+                        line-height: $sub-menu-height
+                        text-align: left
+                        box-sizing: content-box
+                        display: flex
+                        justify-content: space-between
+
+                        &:hover,
+                        &:focus
+                            background-color: $secondary
+
+                        .number
+                            color: $gray-54
+
+                            &.active
+                                color: $primary
+
+    .song
+        flex: 0 0 $queue-width
+        display: flex
+        padding: 8px
+        background-color: $secondary-dark
+
+        .thumbnail
+            height: 40px
+            flex: 0 0 40px
+
+        .details
+            flex: 1
+            display: flex
+            flex-direction: column
+            justify-content: center
+            margin: 0 8px
+
+            .title
+                color: white
+                margin-bottom: 4px
+                text-decoration: none
+
+            .artist
+                color: $gray-46
+                text-decoration: none
+                font-weight: 300
+
+    .queue-container
+        width: $queue-width
+        position: absolute
+        top: 48px
+        right: 0
+        bottom: $player-height
+        padding-bottom: $queue-options-bar-height
+        display: none
+        background-color: $secondary
+        overflow-y: auto
+
+        .song
+            box-shadow: inset 0 -1px 0 rgba(white, 0.1)
+
+        .queue-options-bar
+            position: fixed
+            bottom: $player-height
+            right: 0
+            width: $queue-width
+            height: $queue-options-bar-height
+            padding: 0 8px
+            background-color: $secondary-dark
+            box-shadow: inset 0 -1px 0 rgba(white, 0.1)
+            display: flex
+
+            .delete-button
+                position: absolute
+                right: 0
+                height: $queue-options-bar-height

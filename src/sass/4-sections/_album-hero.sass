@@ -13,6 +13,11 @@
         background-color: transparent
         cursor: pointer
         display: inline-block
+        opacity: 0.5
+
+        &:hover,
+        &:focus
+            opacity: 1
 
         &:focus
             outline: none
@@ -69,3 +74,25 @@
 
             .options
                 align-self: center
+
+    @media (max-width: $sm-max)
+        display: block
+
+        .album-cover
+            margin-right: 0
+            margin-bottom: ($gutter * 2)
+
+        .details
+            .bottom
+                flex-direction: column
+
+                .genres
+                    flex-grow: 1
+
+                    .genres-paragraph
+                        a
+                            padding: 6px 6px
+
+                .options
+                    align-self: flex-end
+                    margin-top: $gutter

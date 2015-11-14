@@ -4,18 +4,6 @@ mixin settingsItem(text, icon)
             i.material-icons.tiny #{icon}
             | #{text}
 
-mixin musicItem()
-    li.song
-        a(href="#")
-            img(src="https://unsplash.it/80/80").thumbnail
-        .details
-            a(href="#" title="Titolo della canzone assolutamente molto lungo").title.truncate Titolo della canzone assolutamente molto lungo
-            a(href="#" title="Nome dell'artista assolutamente molto lungo").artist.truncate Nome dell'artista assolutamente molto lungo
-        button.player-button
-            i.material-icons.tiny more_vert
-        button.player-button
-            i.material-icons.tiny clear
-
 section.player
     button(title="Indietro di uno").player-button
         i.material-icons.small fast_rewind
@@ -32,6 +20,9 @@ section.player
             .time-track
                 .time-past
 
+    button(title="Ripeti coda").player-button.repeat-button
+        i.material-icons.tiny repeat
+    
     button.player-button.volume-button
         i.material-icons.tiny volume_up
         .slider-container
@@ -62,11 +53,6 @@ section.player
             +settingsItem('Equalizzatore', 'equalizer')
 
     .song
-        a(href="#")
-            img(src="https://unsplash.it/80/80").thumbnail
-        .details
-            a(href="#" title="Titolo della canzone assolutamente molto lungo").title.truncate Titolo della canzone assolutamente molto lungo
-            a(href="#" title="Nome dell'artista assolutamente molto lungo").artist.truncate Nome dell'artista assolutamente molto lungo
         button(title="Coda d'ascolto").player-button.queue-button
             i.material-icons.tiny list
         

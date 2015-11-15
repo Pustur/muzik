@@ -19,6 +19,11 @@ block scripts
     script(src="js/script.min.js")
     script.
         $(document).ready(function() {
+            var $sidebar = $('.sidebar'),
+                $mainMenu = $sidebar.find('.main-menu');
+
+            $mainMenu.find('> ul > li:nth-child(1)').addClass('active');
+
             Randomator.getData(function(data) {
                 var randomSong = Randomator.getSong(data);
                 var img = $('<img>', { 

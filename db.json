@@ -7,32 +7,27 @@
         {
             "name": "Home",
             "link": "#",
-            "icon": "home",
-            "class": "active"
+            "icon": "home"
         },
         {
             "name": "Top",
             "link": "#",
-            "icon": "trending_up",
-            "class": ""
+            "icon": "trending_up"
         },
         {
             "name": "Nuove uscite",
             "link": "#",
-            "icon": "new_releases",
-            "class": ""
+            "icon": "new_releases"
         },
         {
             "name": "Raccolte",
             "link": "#",
-            "icon": "folder",
-            "class": ""
+            "icon": "folder"
         },
         {
             "name": "Generi",
             "link": "#",
-            "icon": "audiotrack",
-            "class": ""
+            "icon": "audiotrack"
         }
     ],
     "albums": [

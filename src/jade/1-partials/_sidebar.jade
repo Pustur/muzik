@@ -1,5 +1,5 @@
-mixin menuItem(text, url, icon, className)
-    li(class="#{className}")
+mixin menuItem(text, url, icon)
+    li
         a(href="#{url}")
             i.material-icons #{icon}
             | #{text}
@@ -11,7 +11,7 @@ section.sidebar
 
     a(href="#").logo
         include _logo
-    nav
+    nav.main-menu
         ul
             -each menuItem in menu
-                +menuItem(menuItem.name, menuItem.link, menuItem.icon, menuItem.class)
+                +menuItem(menuItem.name, menuItem.link, menuItem.icon)

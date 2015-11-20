@@ -7,26 +7,44 @@
 
     td:nth-child(1),
     th:nth-child(1),
-    td:nth-child(3),
-    th:nth-child(3),
+    td:nth-child(2),
+    th:nth-child(2),
     td:nth-child(4),
-    th:nth-child(4)
+    th:nth-child(4),
+    td:nth-child(5),
+    th:nth-child(5)
         width: 1px
 
-    td:nth-child(4),
-    th:nth-child(4)
+    td:nth-child(2),
+    th:nth-child(2),
+    td:nth-child(5),
+    th:nth-child(5)
         button
-            color: black
-            opacity: 0.5
             border: 0
             margin: 0
-            background-color: transparent
             cursor: pointer
             display: inline-block
+
+            &:focus
+                outline: none
+
+    td:nth-child(2),
+    th:nth-child(2)
+        button
+            background-color: $primary
+            color: white
+            border-radius: 999px
+            width: 32px
+            height: 32px
+            padding: 4px
+
+    td:nth-child(5),
+    th:nth-child(5)
+        button
+            background-color: transparent
+            color: black
+            opacity: 0.5
 
             &:hover,
             &:focus
                 opacity: 1
-
-            &:focus
-                outline: none

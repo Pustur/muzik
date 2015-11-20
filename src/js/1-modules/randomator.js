@@ -42,6 +42,21 @@ var Randomator = (function($) {
         return albums[albumId].tracks[songId];
     }
 
+    function getArtistAlbums(data, artist, nameToExclude) {
+        var albums = data.albums,
+            albumsArray = [];
+
+        nameToExclude = nameToExclude || '';
+
+        for (var i=0; i<albums.length; i++) {
+            if (albums[i].artist === artist && albums[i].name !== nameToExclude) {
+                albumsArray.push(albums[i]);
+            }
+        }
+
+        return albumsArray;
+    }
+
     function clamp(value, min, max) {
         return value > max ? max : (value < min ? min : value);
     }
@@ -50,6 +65,7 @@ var Randomator = (function($) {
     return {
         getData: getJsonData,
         getAlbum: getAlbum,
+        getArtistAlbums: getArtistAlbums,
         getSong: getSong
     };
 })(jQuery);

@@ -1,0 +1,47 @@
+main.content.playlist-detail
+    .hero
+        .album-cover
+            img.cover
+            button.fab
+                i.material-icons.medium play_arrow
+            
+        .details
+            .top
+                h1.title
+                
+                h2
+                    a(href="#").artist
+                
+            .middle
+                p.info
+                
+            .bottom
+                .genres
+                    p.genres-paragraph Generi: 
+                .options
+                    button(title="Aggiungi a playlist").hero-button
+                        i.material-icons playlist_add
+                    button(title="Aggiungi ai preferiti").hero-button
+                        i.material-icons favorite_border
+                    button(title="Condividi").hero-button
+                        i.material-icons share
+                        
+    .container.song-list-container
+        .song-list
+            table
+                thead
+                    tr
+                        th N°
+                        th= ' '
+                        th Titolo
+                        th Artista
+                        th Album
+                        th Durata
+                        th= ' '
+                        
+                tbody.songs-container
+                
+    .container
+        h3.related-albums-title.section-title
+        .related-albums-container
+            .related-albums

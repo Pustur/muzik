@@ -1,7 +1,7 @@
 extend 0-layouts/_default
 
 block head
-    title Dettaglio album | Muzik!
+    title Dettaglio playlist | Muzik!
 
 block sidebar
     include 1-partials/_sidebar
@@ -10,7 +10,7 @@ block topbar
     include 1-partials/_topbar
 
 block content
-    include 2-pages-content/_album-detail
+    include 2-pages-content/_playlist-detail
 
 block player
     include 1-partials/_player
@@ -19,6 +19,37 @@ block scripts
     script(src="js/script.min.js")
     script.
         $(document).ready(function() {
+            function toMonth(monthNumber) {
+                var m = parseInt(monthNumber);
+                
+                switch (m) {
+                    case 1: m = 'Gennaio';
+                            break;
+                    case 2: m = 'Febbraio';
+                            break;
+                    case 3: m = 'Marzo';
+                            break;
+                    case 4: m = 'Aprile';
+                            break;
+                    case 5: m = 'Maggio';
+                            break;
+                    case 6: m = 'Giugno';
+                            break;
+                    case 7: m = 'Luglio';
+                            break;
+                    case 8: m = 'Agosto';
+                            break;
+                    case 9: m = 'Settembre';
+                            break;
+                    case 10: m = 'Ottobre';
+                            break;
+                    case 11: m = 'Novembre';
+                            break;
+                    default: m = 'Dicembre';
+                }
+                
+                return m;
+            }
             Randomator.getData(function(data) {
                 var album = Randomator.getAlbum(data),
                 
@@ -40,7 +71,7 @@ block scripts
                 
                 $img.attr({
                     src: 'img/covers/' + album.imageUrl,
-                    alt: album.album + ' album cover'
+                    alt: album.album + ' playlist cover'
                 });
                 
                 $title.text(album.name);
@@ -48,7 +79,7 @@ block scripts
                 $artist.text(album.artist);
                 
                 $info.html(
-                    'Anno: <span>' + album.releaseDate.split('-')[0] + '</span><br>' +
+                    'Data di pubblicazione: <span>' + parseInt(album.releaseDate.split('-')[2]) + ' ' + toMonth(album.releaseDate.split('-')[1]) + ' ' + album.releaseDate.split('-')[0] + '</span><br>' +
                     'Numero di canzoni: <span>' + album.tracks.length + '</span><br>' +
                     'Durata totale: <span>' + album.duration + '</span>' +
                     (album.isExplicit ? '<br><span>Presenta contenuti espliciti</span>' : '')
@@ -68,37 +99,39 @@ block scripts
                             '<td>' + (i+1) + '.</td>' +
                             '<td><button><i class="material-icons">play_arrow</i></button></td>' +
                             '<td>' + song.name + '</td>' +
+                            '<td>' + song.artist + '</td>' +
+                            '<td>' + song.album + '</td>' +
                             '<td>' + song.duration.split(':')[1] + ':' + song.duration.split(':')[2] + '</td>' +
                             '<td><button><i class="material-icons">more_vert</i></button></td>' +
                         '</tr>';
                 }
                 $songsContainer.html(songsString);
                 
-                $relatedAlbumsTitle.html('Altri album di <a href="#">' + album.artist + '</a>');
+                $relatedAlbumsTitle.html('Altre playlists di <a href="#">' + album.artist + '</a>');
                 
                 var relatedAlbums = Randomator.getArtistAlbums(data, album.artist, album.name),
                     relatedAlbumsString = '';
                 
                 if (relatedAlbums.length > 0) {
                     for (var i=0; i<relatedAlbums.length; i++) {
-                        var info = relatedAlbums[i].releaseDate.split('-')[0] + ' – ' + relatedAlbums[i].tracks.length + ' canzoni';
+                        var info = 'Da <a href="#">' + relatedAlbums[i].artist + '</a>';
                         
                         relatedAlbumsString += '' +
                             '<div class="album-unit">' +
                                 '<div class="album-unit-thumbnail">' +
-                                    '<a href="/album-detail.html"><img src="img/covers/' + relatedAlbums[i].imageUrl + '" alt="' + relatedAlbums[i].name + ' album cover"></a>' +
+                                    '<a href="/playlist-detail.html"><img src="img/covers/' + relatedAlbums[i].imageUrl + '" alt="' + relatedAlbums[i].name + ' album cover"></a>' +
                                 '</div>' +
                                 '<h4 class="name truncate">' +
-                                    '<a href="/album-detail.html" title="' + relatedAlbums[i].name + '">' + relatedAlbums[i].name + '</a>' +
+                                    '<a href="/playlist-detail.html" title="' + relatedAlbums[i].name + '">' + relatedAlbums[i].name + '</a>' +
                                 '</h4>' +
                                 '<h5 class="info truncate">' +
-                                    '<a href="/album-detail.html" title="' + info + '">' + info + '</a>' +
+                                    '<span>' + info + '</span>' +
                                 '</h5>' +
                             '</div>';
                     }
                 }
                 else {
-                    relatedAlbumsString = 'Spiacenti, nessun album trovato.'
+                    relatedAlbumsString = 'Spiacenti, nessuna playlist trovata.'
                 }
                 $relatedAlbums.html(relatedAlbumsString);
             });

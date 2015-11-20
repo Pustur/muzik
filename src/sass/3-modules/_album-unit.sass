@@ -1,0 +1,33 @@
+.album-unit
+    vertical-align: middle
+    width: 140px
+    display: inline-block
+
+    @media (min-width: $md)
+        width: 180px
+
+    & + .album-unit
+        margin-left: $gutter
+
+    .album-unit-thumbnail
+        position: relative
+
+        img
+            width: 100%
+
+    .name,
+    .info
+        margin: 0
+        padding: 4px 0 2px 0
+
+        a
+            text-decoration: none
+
+    .name
+        color: $primary
+        a
+            color: inherit
+
+    .info
+        a
+            color: $gray-70

@@ -24,13 +24,19 @@ main.content.album-detail
                         i.material-icons favorite_border
                     button(title="Condividi").hero-button
                         i.material-icons share
-    .song-list
-        table
-            thead
-                tr
-                    th N°
-                    th Titolo
-                    th Durata
-                    th= ' '
-                    
-            tbody.songs-container
+    .container.song-list-container
+        .song-list
+            table
+                thead
+                    tr
+                        th N°
+                        th Titolo
+                        th Durata
+                        th= ' '
+                        
+                tbody.songs-container
+                
+    .container
+        h3.related-albums-title.section-title
+        .related-albums-container
+            .related-albums

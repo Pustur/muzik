@@ -1,0 +1,26 @@
+.related-albums-title
+    a
+        color: $primary
+        text-decoration: none
+
+.related-albums-container
+    position: relative
+
+    &::before
+        +trbl(0, 0, 0, auto)
+        content: ' '
+        background: linear-gradient(to right, rgba(white ,0) 0%, rgba(white, 0.8) 100%)
+        width: 50px
+        position: absolute
+        z-index: 1
+        pointer-events: none
+
+    .related-albums
+        overflow-x: auto
+        white-space: nowrap
+        padding-bottom: 6px
+        margin-bottom: ($gutter * 4)
+        color: $gray-54
+
+        @media (min-width: $lg)
+            padding-bottom: 0

@@ -182,5 +182,13 @@ section.player
                 text-decoration: none
                 font-weight: 300
                 padding-bottom: 3px
+    @media (max-width: $sm-max)
+        padding: 0
+
+        & > *:not(.song):not(.play-button)
+            display: none
+
+        .song
+            flex: 1 0 auto
 
     @import "3-modules/queue"

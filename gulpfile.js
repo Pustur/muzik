@@ -58,14 +58,19 @@ gulp.task('css', function(){
 gulp.task('js', function(){
     return gulp.src([
         config.src + 'js/0-vendor/jquery.min.js',
-        config.src + 'js/script.js',
         config.src + 'js/1-modules/randomator.js',
         config.src + 'js/1-modules/sidebar.js',
-        config.src + 'js/1-modules/player.js'
+        config.src + 'js/1-modules/player.js',
+        config.src + 'js/script.js'
     ])
     .pipe(plumber())
     .pipe(concat('script.min.js'))
     .pipe(config.production ? uglify() : util.noop())
+    .pipe(gulp.dest(config.dest + 'js'));
+});
+
+gulp.task('jquery', function() {
+    return gulp.src(config.src + 'js/0-vendor/jquery.min.js')
     .pipe(gulp.dest(config.dest + 'js'));
 });
 
@@ -98,4 +103,4 @@ gulp.task('watch', function(){
 });
 
 // Default task
-gulp.task('default', ['html', 'css', 'js', 'img', 'db', 'server', 'watch']);
+gulp.task('default', ['html', 'css', 'js', 'jquery', 'img', 'db', 'server', 'watch']);

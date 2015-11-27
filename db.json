@@ -6,7 +6,7 @@
     "menu": [
         {
             "name": "Home",
-            "link": "/",
+            "link": "home.html",
             "icon": "home"
         },
         {

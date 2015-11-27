@@ -14,3 +14,13 @@ block content
 
 block player
     include 1-partials/_player
+
+block scripts
+    script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            var $sidebar = $('.sidebar'),
+                $mainMenu = $sidebar.find('.main-menu');
+
+            $mainMenu.find('> ul > li:nth-child(1)').addClass('active');
+        });

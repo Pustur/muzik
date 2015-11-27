@@ -1,37 +1,39 @@
-extend 0-layouts/_default
+extend 0-layouts/_non-app
 
 block head
-    title Home | Muzik!
-
-block sidebar
-    include 1-partials/_sidebar
+    title Benvenuto su Muzik!
 
 block topbar
-    include 1-partials/_topbar
+    include 1-partials/_topbar-no-app
+
+block header
+    include 1-partials/_hero-landing
 
 block content
-    include 2-pages-content/_home
+    include 2-pages-content/_landing
 
-block player
-    include 1-partials/_player
-    
+block footer
+    include 1-partials/_footer
+
 block scripts
-    script(src="js/script.min.js")
+    script(src="//code.jquery.com/jquery-1.11.3.min.js")
     script.
-        $(document).ready(function() {
-            var $sidebar = $('.sidebar'),
-                $mainMenu = $sidebar.find('.main-menu');
-
-            $mainMenu.find('> ul > li:nth-child(1)').addClass('active');
-
-            Randomator.getData(function(data) {
-                var randomSong = Randomator.getSong(data);
-                var img = $('<img>', { 
-                    src: 'img/covers/' + randomSong.imageUrl,
-                    alt: randomSong.album + ' album cover',
-                    width: 300,
-                    height: 300
-                });
-                $('.content').append(img);
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'auto'
+        });
+        $('.topbar-landing').css({
+            boxShadow: 'none'
+        });
+        $('a[href^="#"]').on('click', function(e) {
+            e.preventDefault();
+            
+            var target = this.hash,
+                $target = $(target);
+            
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function(){
+                window.location.hash = target;
             });
         });

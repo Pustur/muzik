@@ -28,45 +28,45 @@ $(document).ready(function() {
                 itemNumber = Math.floor(Math.random() * 20) + 1,
                 songsString = '';
 
-                for (i=0; i<itemNumber; i++) {
-                    var song = Randomator.getSong(data);
+            for (i=0; i<itemNumber; i++) {
+                var song = Randomator.getSong(data);
 
-                    songsString += '' +
-                        '<li class="song' + (i === 0 ? ' active' : '') + '">' +
+                songsString += '' +
+                    '<li class="song' + (i === 0 ? ' active' : '') + '">' +
+                        '<a href="#">' +
+                            '<img class="thumbnail" src="img/covers/' + song.imageUrl + '">' +
+                        '</a>' +
+                        '<div class="details">' +
+                            '<a class="title truncate" href="#" title="' + song.name + '">' + song.name + '</a>' +
+                            '<a class="artist truncate" href="#" title="' + song.artist + '">' + song.artist + '</a>' +
+                        '</div>' +
+                        '<div class="icon-bars">' +
+                            '<div class="bar"></div>' +
+                            '<div class="bar"></div>' +
+                            '<div class="bar"></div>' +
+                        '</div>' +
+                        '<button class="player-button">' +
+                            '<i class="material-icons tiny">more_vert</i>' +
+                        '</button>' +
+                        '<button class="player-button">' +
+                            '<i class="material-icons tiny">clear</i>' +
+                        '</button>' +
+                    '</li>';
+
+                if (i === 0) {
+                    var songInPlayer = '';
+                        songInPlayer += '' +
                             '<a href="#">' +
                                 '<img class="thumbnail" src="img/covers/' + song.imageUrl + '">' +
                             '</a>' +
                             '<div class="details">' +
                                 '<a class="title truncate" href="#" title="' + song.name + '">' + song.name + '</a>' +
                                 '<a class="artist truncate" href="#" title="' + song.artist + '">' + song.artist + '</a>' +
-                            '</div>' +
-                            '<div class="icon-bars">' +
-                                '<div class="bar"></div>' +
-                                '<div class="bar"></div>' +
-                                '<div class="bar"></div>' +
-                            '</div>' +
-                            '<button class="player-button">' +
-                                '<i class="material-icons tiny">more_vert</i>' +
-                            '</button>' +
-                            '<button class="player-button">' +
-                                '<i class="material-icons tiny">clear</i>' +
-                            '</button>' +
-                        '</li>';
+                            '</div>';
 
-                    if (i === 0) {
-                        var songInPlayer = '';
-                            songInPlayer += '' +
-                                '<a href="#">' +
-                                    '<img class="thumbnail" src="img/covers/' + song.imageUrl + '">' +
-                                '</a>' +
-                                '<div class="details">' +
-                                    '<a class="title truncate" href="#" title="' + song.name + '">' + song.name + '</a>' +
-                                    '<a class="artist truncate" href="#" title="' + song.artist + '">' + song.artist + '</a>' +
-                                '</div>';
-
-                        $queueButton.before(songInPlayer);
-                    }
+                    $queueButton.before(songInPlayer);
                 }
+            }
 
             $queueList.append(songsString);
         });

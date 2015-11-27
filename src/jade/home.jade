@@ -14,24 +14,3 @@ block content
 
 block player
     include 1-partials/_player
-    
-block scripts
-    script(src="js/script.min.js")
-    script.
-        $(document).ready(function() {
-            var $sidebar = $('.sidebar'),
-                $mainMenu = $sidebar.find('.main-menu');
-
-            $mainMenu.find('> ul > li:nth-child(1)').addClass('active');
-
-            Randomator.getData(function(data) {
-                var randomSong = Randomator.getSong(data);
-                var img = $('<img>', { 
-                    src: 'img/covers/' + randomSong.imageUrl,
-                    alt: randomSong.album + ' album cover',
-                    width: 300,
-                    height: 300
-                });
-                $('.content').append(img);
-            });
-        });

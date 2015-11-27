@@ -1,7 +1,7 @@
 header.hero-landing
     background:
         //image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(/img/cactus.jpg)
-        image: url(/img/cactus.jpg)
+        image: url(../img/cactus.jpg)
         size: cover
         position: 22% 0%
     color: white
@@ -16,9 +16,37 @@ header.hero-landing
 
     .subtitle
         font-size: 34px
-        margin-bottom: 4rem
+        margin-bottom: ($gutter * 4)
 
     .description
         font-size: 20px
         line-height: 32px
         font-weight: 300
+        margin-bottom: ($gutter * 4)
+
+    .down-arrow
+        text-decoration: none
+        color: white
+        height: 36px
+        vertical-align: top
+        display: inline-block
+        overflow: hidden
+
+        .material-icons
+            position: relative
+            top: 0
+            animation: move-arrow 4.5s ease-in-out infinite
+
+@keyframes move-arrow
+    0%
+        top: 0
+    80%
+        top: 0
+    83%
+        top: -5px
+    90%
+        top: 30px
+    90.01%
+        top: -30px
+    97%
+        top: 5px

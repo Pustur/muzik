@@ -16,6 +16,24 @@ block footer
     include 1-partials/_footer
 
 block scripts
+    script(src="//code.jquery.com/jquery-1.11.3.min.js")
     script.
-        document.body.style.overflow = 'auto';
-        document.getElementsByClassName('topbar-landing')[0].style.boxShadow = 'none';
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'auto'
+        });
+        $('.topbar-landing').css({
+            boxShadow: 'none'
+        });
+        $('a[href^="#"]').on('click', function(e) {
+            e.preventDefault();
+            
+            var target = this.hash,
+                $target = $(target);
+            
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function(){
+                window.location.hash = target;
+            });
+        });

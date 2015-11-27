@@ -1,0 +1,19 @@
+mixin input(inputLabel, inputType, inputName, inputId, inputPlaceholder)
+    label(for=inputId)= inputLabel
+    input(id=inputId, type=inputType, name=inputName, placeholder=inputPlaceholder)&attributes(attributes)= name
+
+main.registration-content
+    .container
+        .registration-form-container
+            h1.title Registrazione a Muzik!
+            form.registration-form
+                p.description Registrando un account avrai accesso a 30 giorni di prova gratuiti a Muzik! Che aspetti?
+                div.input-wrapper
+                    +input('Email', 'email', 'email', 'email-field', 'Your email here')
+                div.input-wrapper
+                    +input('Password', 'password', 'password', 'password-field', 'Your password here')
+                div.input-wrapper
+                    input(type="checkbox", name="termini-e-condizioni")
+                    | Ho letto ed accetto i 
+                    a(href="#").tec-link Termini e condizioni
+                a.button.primary(href="#") Registrati

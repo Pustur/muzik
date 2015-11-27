@@ -14,5 +14,10 @@ block footer
 
 block scripts
     script.
-        document.body.style.overflow = 'auto';
-        document.body.className = 'flex-registration';
+    script(src="//code.jquery.com/jquery-1.11.3.min.js")
+    script.
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'initial'
+        });
+        $('body').addClass('flex-registration');

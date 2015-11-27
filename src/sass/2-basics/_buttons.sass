@@ -1,0 +1,25 @@
+.button
+    display: inline-block
+    padding: 0 2rem
+    text-decoration: none
+    color: white
+    background-color: $gray-46
+    text-align: center
+    text-transform: uppercase
+    font-weight: 500
+    border: 0
+    border-radius: 2px
+    height: 32px
+    line-height: 32px
+    cursor: pointer
+
+    &:hover,
+    &:focus
+        background-color: lighten($gray-46, 10%)
+
+    &.primary
+        background-color: $primary
+
+        &:hover,
+        &:focus
+            background-color: lighten($primary, 5%)

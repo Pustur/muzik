@@ -1,0 +1,25 @@
+section.features
+    padding: ($gutter * 4) 0
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16)
+
+    .feature-list
+        display: flex
+
+        & > li
+            flex-grow: 1
+            text-align: center
+            padding: $gutter
+
+            .material-icons
+                margin-bottom: 1rem
+                color: $gray-54
+
+            .title
+                font-size: 24px
+
+            .description
+                line-height: 24px
+
+    @media (max-width: $sm-max)
+        .feature-list
+            flex-wrap: wrap

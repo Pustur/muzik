@@ -1,0 +1,26 @@
+section.topbar-landing
+    height: 64px
+
+    .logo
+        float: left
+        padding: 0
+        height: 48px
+        width: 48px
+        margin-top: 8px
+
+    .cta-container
+        float: right
+        margin-top: 16px
+
+        .button
+            & + .button
+                margin-left: 1rem
+
+    @media (max-width: $sm-max)
+        .cta-container
+            .button
+                padding: 0 $gutter
+
+@import "4-sections/hero-landing"
+@import "4-sections/features-landing"
+@import "4-sections/pricing-landing"

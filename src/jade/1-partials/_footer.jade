@@ -1,0 +1,10 @@
+mixin footerItem(url, text)
+    li
+        a(href="#{url}")= text
+
+footer.footer
+    ul
+        +footerItem('#', 'Cos’è Muzik!')
+        +footerItem('#', 'FAQ')
+        +footerItem('#', 'Assistenza clienti')
+        +footerItem('#', 'Termini e condizioni')

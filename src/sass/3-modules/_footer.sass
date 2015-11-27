@@ -1,0 +1,23 @@
+footer.footer
+    text-align: center
+    background-color: $gray-46
+    padding: ($gutter * 2) 0
+
+    ul
+        display: inline-block
+
+        & > li
+            display: inline-block
+            padding: 0 $gutter
+            margin: ($gutter / 2) 0
+
+            & + li
+                border-left: 1px solid $gray-13
+
+            a
+                color: $gray-13
+                text-decoration: none
+
+                &:hover,
+                &:focus
+                    color: white

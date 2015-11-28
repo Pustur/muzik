@@ -19,9 +19,14 @@ header.hero-landing
 
     .description
         font-size: 20px
-        line-height: 32px
-        font-weight: 300
+        line-height: 24px
         margin-bottom: ($gutter * 4)
+
+        p
+            margin-bottom: 1rem
+
+            @media (min-width: $md)
+                margin-bottom: 0.5rem
 
     .down-arrow
         text-decoration: none
@@ -32,20 +37,19 @@ header.hero-landing
         overflow: hidden
 
         .material-icons
-            position: relative
-            top: 0
+            transform: translate3d(0, 0, 0)
             animation: move-arrow 4.5s ease-in-out infinite
 
 @keyframes move-arrow
     0%
-        top: 0
+        transform: translate3d(0, 0, 0)
     80%
-        top: 0
+        transform: translate3d(0, 0, 0)
     83%
-        top: -5px
+        transform: translate3d(0, -5px, 0)
     90%
-        top: 30px
+        transform: translate3d(0, 30px, 0)
     90.01%
-        top: -30px
+        transform: translate3d(0, -30px, 0)
     97%
-        top: 5px
+        transform: translate3d(0, 5px, 0)

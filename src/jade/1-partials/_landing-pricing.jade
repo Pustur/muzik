@@ -1,0 +1,18 @@
+mixin pricingFeature(text)
+    li
+        span.material-icons check
+        | #{text}
+
+section.pricing
+    .container
+        .pricing-table
+            h3.title Prezzo
+            h4.price 5 CHF / mese
+            ul.pricing-features
+                +pricingFeature('Accesso a oltre 15 milioni di brani')
+                +pricingFeature('Musica in streaming online')
+                +pricingFeature('Creazione di playlist personalizzate')
+                +pricingFeature('Condivisione della musica e playlist')
+                +pricingFeature('Accesso da ogni dispositivo')
+                +pricingFeature('Nessuna pubblicità')
+            a(href="register.html").button.primary Provalo gratuitamente per 30 giorni

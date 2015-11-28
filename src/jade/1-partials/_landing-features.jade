@@ -1,0 +1,12 @@
+mixin feature(title, text, icon)
+    li
+        i.material-icons.large= icon
+        h3.title= title
+        p.description= text
+
+section.features
+    .container
+        ul.feature-list
+            +feature('Trova', 'Trova gli artisti che più ti piacciono, le canzoni del momento, oppure le playlists più rinomate grazie ad un motore di ricerca intelligente.', 'search')
+            +feature('Crea', 'Crea playlists musicali da aggiungere alla tua libreria personale oppure ascolta le ultime playlists raccomandate dallo staff di Muzik!', 'queue_music')
+            +feature('Condividi', 'Muzik! permette di condividere la propria musica su tutti i social network più importanti, Facebook, Twitter, Google Plus e via e-mail.', 'share')

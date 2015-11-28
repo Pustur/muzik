@@ -1,32 +1,3 @@
-mixin feature(title, text, icon)
-    li
-        i.material-icons.large= icon
-        h3.title= title
-        p.description= text
-        
-mixin pricingFeature(text)
-    li
-        span.material-icons check
-        | #{text}
-
 main#main.landing-content
-    section.features
-        .container
-            ul.feature-list
-                +feature('Trova', 'Trova gli artisti che più ti piacciono, le canzoni del momento, oppure le playlists più rinomate grazie ad un motore di ricerca intelligente.', 'search')
-                +feature('Crea', 'Crea playlists musicali da aggiungere alla tua libreria personale oppure ascolta le ultime playlists raccomandate dallo staff di Muzik!', 'queue_music')
-                +feature('Condividi', 'Muzik! permette di condividere la propria musica su tutti i social network più importanti, Facebook, Twitter, Google Plus e via e-mail.', 'share')
-
-    section.pricing
-        .container
-            .pricing-table
-                h3.title Prezzo
-                h4.price 5 CHF / mese
-                ul.pricing-features
-                    +pricingFeature('Accesso a oltre 15 milioni di brani')
-                    +pricingFeature('Musica in streaming online')
-                    +pricingFeature('Creazione di playlist personalizzate')
-                    +pricingFeature('Condivisione della musica e playlist')
-                    +pricingFeature('Accesso da ogni dispositivo')
-                    +pricingFeature('Nessuna pubblicità')
-                a(href="register.html").button.primary Provalo gratuitamente per 30 giorni
+    include ../1-partials/_landing-features
+    include ../1-partials/_landing-pricing

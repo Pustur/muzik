@@ -9,9 +9,11 @@ main.registration-content
             form.registration-form
                 p.description Registrando un account avrai accesso a 30 giorni di prova gratuiti a Muzik! Che aspetti?
                 div.input-wrapper
-                    +input('Email', 'email', 'email', 'email-field', 'Your email here')
+                    +input('Email', 'email', 'email', 'email-field', 'La tua email')
                 div.input-wrapper
-                    +input('Password', 'password', 'password', 'password-field', 'Your password here')
+                    +input('Password', 'password', 'password', 'password-field', 'La tua password')
+                div.input-wrapper
+                    +input('Conferma password', 'password', 'conferma-password', 'confirm-password-field', 'Conferma la password')
                 div.input-wrapper
                     input(type="checkbox", name="termini-e-condizioni")
                     | Ho letto ed accetto i 

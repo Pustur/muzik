@@ -22,12 +22,12 @@ section.player
 
     button(title="Ripeti coda").player-button.repeat-button
         i.material-icons.tiny repeat
-    
+
     button.player-button.volume-button
         i.material-icons.tiny volume_up
         .slider-container
             input(type="range", min="0", max="1", value="1", step="0.01").volume.slider
-    
+
     button.player-button.settings-button
         i.material-icons.tiny settings
         ul.settings-container
@@ -38,15 +38,15 @@ section.player
                         | Qualità
                     i.material-icons.tiny.arrow keyboard_arrow_right
                 ul.sub-menu
-                    li 
+                    li
                         a
                             div Alta
                             .number.active 320kbps
-                    li 
+                    li
                         a
                             div Media
                             .number 192kbps
-                    li 
+                    li
                         a
                             div Bassa
                             .number 128kbps
@@ -55,5 +55,5 @@ section.player
     .song
         button(title="Coda d'ascolto").player-button.queue-button
             i.material-icons.tiny playlist_play
-        
+
         include _queue

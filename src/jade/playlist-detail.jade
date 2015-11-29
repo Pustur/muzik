@@ -14,14 +14,14 @@ block content
 
 block player
     include 1-partials/_player
-    
+
 block scripts
     script(src="js/script.min.js")
     script.
         $(document).ready(function() {
             function toMonth(monthNumber) {
                 var m = parseInt(monthNumber);
-                
+
                 switch (m) {
                     case 1: m = 'Gennaio';
                             break;
@@ -47,50 +47,50 @@ block scripts
                             break;
                     default: m = 'Dicembre';
                 }
-                
+
                 return m;
             }
             Randomator.getData(function(data) {
                 var album = Randomator.getAlbum(data),
-                
+
                     $hero = $('.hero'),
                     $img = $hero.find('.cover'),
                     $title = $hero.find('.title'),
                     $artist = $hero.find('.artist'),
                     $info = $hero.find('.info'),
                     $genres = $hero.find('.genres-paragraph'),
-                    
+
                     $songsContainer = $('.songs-container'),
-                    
+
                     $relatedAlbums = $('.related-albums'),
                     $relatedAlbumsTitle = $('.related-albums-title');
-                
+
                 $hero.css({
                     backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%), url(img/covers/' + album.imageUrl + ')'
                 });
-                
+
                 $img.attr({
                     src: 'img/covers/' + album.imageUrl,
                     alt: album.album + ' playlist cover'
                 });
-                
+
                 $title.text(album.name);
-                
+
                 $artist.text(album.artist);
-                
+
                 $info.html(
                     'Data di pubblicazione: <span>' + parseInt(album.releaseDate.split('-')[2]) + ' ' + toMonth(album.releaseDate.split('-')[1]) + ' ' + album.releaseDate.split('-')[0] + '</span><br>' +
                     'Numero di canzoni: <span>' + album.tracks.length + '</span><br>' +
                     'Durata totale: <span>' + album.duration + '</span>' +
                     (album.isExplicit ? '<br><span>Presenta contenuti espliciti</span>' : '')
                 );
-                                
+
                 var genresString = '';
                 for (var i=0; i<album.genres.length; i++) {
                     genresString += '<a href="#">' + album.genres[i] + '</a>';
                 }
                 $genres.append(genresString);
-                
+
                 var songsString = '';
                 for (var i=0; i<album.tracks.length; i++) {
                     var song = album.tracks[i];
@@ -106,16 +106,16 @@ block scripts
                         '</tr>';
                 }
                 $songsContainer.html(songsString);
-                
+
                 $relatedAlbumsTitle.html('Altre playlists di <a href="#">' + album.artist + '</a>');
-                
+
                 var relatedAlbums = Randomator.getArtistAlbums(data, album.artist, album.name),
                     relatedAlbumsString = '';
-                
+
                 if (relatedAlbums.length > 0) {
                     for (var i=0; i<relatedAlbums.length; i++) {
                         var info = 'Da <a href="#">' + relatedAlbums[i].artist + '</a>';
-                        
+
                         relatedAlbumsString += '' +
                             '<div class="album-unit">' +
                                 '<div class="album-unit-thumbnail">' +

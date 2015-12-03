@@ -30,6 +30,41 @@
             "icon": "audiotrack"
         }
     ],
+    "personalMenu": [
+        {
+            "name": "Favoriti",
+            "link": "#",
+            "icon": "favorite"
+        },
+        {
+            "name": "Le mie playlist",
+            "link": "#",
+            "icon": "queue_music"
+        },
+        {
+            "name": "Impostazioni",
+            "link": "#",
+            "icon": "settings"
+        }
+    ],
+    "footerMenu": [
+        {
+            "name": "Cos’è Muzik",
+            "link": "#"
+        },
+        {
+            "name": "FAQ",
+            "link": "#"
+        },
+        {
+            "name": "Assistenza clienti",
+            "link": "#"
+        },
+        {
+            "name": "Termini e condizioni",
+            "link": "#"
+        }
+    ],
     "albums": [
         {
             "name": "Ghost Stories",

@@ -4,6 +4,9 @@ mixin menuItem(text, url, icon)
             i.material-icons #{icon}
             | #{text}
 
+mixin footerItem(url, text)
+    li
+        a(href="#{url}")= text
 
 section.sidebar
     button.sidebar-button.close
@@ -11,7 +14,18 @@ section.sidebar
 
     a(href="home.html").logo
         include _logo
-    nav.main-menu
-        ul
-            -each menuItem in menu
-                +menuItem(menuItem.name, menuItem.link, menuItem.icon)
+
+    .menu-container
+        nav.main-menu
+            ul
+                -each menuItem in menu
+                    +menuItem(menuItem.name, menuItem.link, menuItem.icon)
+
+            div.subsection-title Profilo personale
+            ul
+                -each personalItem in personalMenu
+                    +menuItem(personalItem.name, personalItem.link, personalItem.icon)
+        footer.sidebar-footer
+            ul
+                -each footerItem in footerMenu
+                            +footerItem(footerItem.link, footerItem.name)

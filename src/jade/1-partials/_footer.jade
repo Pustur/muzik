@@ -4,7 +4,5 @@ mixin footerItem(url, text)
 
 footer.footer
     ul
-        +footerItem('#', 'Cos’è Muzik!')
-        +footerItem('#', 'FAQ')
-        +footerItem('#', 'Assistenza clienti')
-        +footerItem('#', 'Termini e condizioni')
+        -each footerItem in footerMenu
+            +footerItem(footerItem.link, footerItem.name)

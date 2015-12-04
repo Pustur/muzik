@@ -19,7 +19,6 @@ var Randomator = (function($) {
             id = Math.floor(Math.random() * albums.length);
         }
 
-        console.log('id: ' + id);
         return albums[id];
     }
 
@@ -38,7 +37,6 @@ var Randomator = (function($) {
             songId = Math.floor(Math.random() * albums[albumId].tracks.length);
         }
 
-        console.log('albumId: ' + albumId + ' songId: ' + songId);
         return albums[albumId].tracks[songId];
     }
 
@@ -57,6 +55,69 @@ var Randomator = (function($) {
         return albumsArray;
     }
 
+    function getArtistSongs(data, artist) {
+        var albums = data.albums,
+            songsArray = [];
+
+        for (var i=0; i<albums.length; i++) {
+            if (albums[i].artist === artist) {
+                for (var j=0; j<albums[i].tracks.length; j++) {
+                    songsArray.push(albums[i].tracks[j]);
+                }
+            }
+        }
+
+        return songsArray;
+    }
+
+    function getRandomArtistSongs(songs, limit) {
+        var randomSongsArray = [];
+
+        limit = Math.min(limit, songs.length);
+
+        while (limit > 0) {
+            var randomId = Math.floor(Math.random() * songs.length);
+
+            randomSongsArray.push(songs[randomId]);
+            songs.splice(randomId, 1);
+            limit--;
+        }
+
+        return randomSongsArray;
+    }
+
+    function sortAlbumsBy(albums, sortCriteria, reverse) {
+        var validSorts = ['name', 'artist', 'duration', 'releaseDate', 'trackCount'];
+
+        if (validSorts.indexOf(sortCriteria) < 0) {
+            throw Error('Invalid sort method. Accepted values: "name", "artist", "duration", "releaseDate", "trackCount"');
+        } else {
+            return sortByKey(albums, sortCriteria, reverse);
+        }
+    }
+
+    function sortByKey(array, key, reverse) {
+        reverse = reverse || false;
+
+        return array.sort(function(a, b) {
+            var x = a[key];
+            var y = b[key];
+
+            if (typeof x == 'string') {
+                x = x.toLowerCase();
+                y = y.toLowerCase();
+            }
+
+            var result = x > y ? 1 : (x < y ? -1 : 0);
+
+            if (reverse) {
+                result *= -1;
+            }
+
+            return result;
+        });
+    }
+
     function clamp(value, min, max) {
         return value > max ? max : (value < min ? min : value);
     }
@@ -66,6 +127,9 @@ var Randomator = (function($) {
         getData: getJsonData,
         getAlbum: getAlbum,
         getArtistAlbums: getArtistAlbums,
-        getSong: getSong
+        sortAlbumsBy: sortAlbumsBy,
+        getSong: getSong,
+        getArtistSongs: getArtistSongs,
+        getRandomArtistSongs: getRandomArtistSongs
     };
 })(jQuery);

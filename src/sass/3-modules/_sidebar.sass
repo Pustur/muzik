@@ -72,7 +72,6 @@ section.sidebar
                         height: 24px
                         line-height: 24px
                         padding: 12px 0
-                        text-transform: uppercase
                         transition: background-color 0.3s ease
                         box-sizing: content-box
 
@@ -82,6 +81,11 @@ section.sidebar
                         .material-icons
                             margin: 0 16px
                             vertical-align: middle
+
+                &:first-child
+                    li
+                        a
+                            text-transform: uppercase
 
         .sidebar-footer
             ul

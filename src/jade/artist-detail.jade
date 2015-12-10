@@ -1,0 +1,226 @@
+extend 0-layouts/_default
+
+block head
+    title Dettaglio artista | Muzik!
+
+block sidebar
+    include 1-partials/_sidebar
+
+block topbar
+    include 1-partials/_topbar
+
+block content
+    include 2-pages-content/_artist-detail
+
+block player
+    include 1-partials/_player
+
+block scripts
+    script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            Randomator.getData(function(data) {
+                var album = Randomator.getAlbum(data),
+                    popularSongs = Randomator.getRandomArtistSongs(Randomator.getArtistSongs(data, album.artist), 5),
+                    similarArtists = [
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data)
+                    ],
+                    relatedAlbums = Randomator.getArtistAlbums(data, album.artist),
+
+                    $hero = $('.hero'),
+                    $img = $hero.find('.cover'),
+                    $title = $hero.find('.title'),
+                    $genres = $hero.find('.genres-paragraph'),
+
+                    $songsContainer = $('.songs-container'),
+
+                    $latestReleases = $('.latest-releases'),
+                    $similarArtists = $('.similar-artists'),
+
+                    $relatedAlbums = $('.related-albums'),
+                    $relatedAlbumsTitle = $('.related-albums-title'),
+
+                    $relatedPlaylist = $('.related-playlist'),
+                    $relatedPlaylistTitle = $('.related-playlist-title');
+
+                $hero.css({
+                    backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%), url(img/covers/' + album.imageUrl + ')'
+                });
+
+                $img.attr({
+                    src: 'img/covers/' + album.imageUrl,
+                    alt: album.artist + ' profile picture'
+                });
+
+                $title.text(album.artist);
+
+                var genresString = '';
+                for (var i=0; i<album.genres.length; i++) {
+                    genresString += '<a href="#">' + album.genres[i] + '</a>';
+                }
+                $genres.append(genresString);
+
+
+                //- POPULAR SONGS SECTION
+                var songsString = '';
+
+                for (var i=0; i<popularSongs.length; i++) {
+                    var song = popularSongs[i];
+                    songsString += '' +
+                        '<tr>' +
+                            '<td>' + (i+1) + '.</td>' +
+                            '<td><button><i class="material-icons">play_arrow</i></button></td>' +
+                            '<td>' + song.name + '</td>' +
+                            '<td><a href="album-detail.html">' + song.album + '</a></td>' +
+                            '<td>' + song.duration.split(':')[1] + ':' + song.duration.split(':')[2] + '</td>' +
+                            '<td><button><i class="material-icons">more_vert</i></button></td>' +
+                        '</tr>';
+                }
+                $songsContainer.html(songsString);
+
+                //- LATEST RELEASES SECTION
+                var latestReleasesString = '';
+
+                if (popularSongs.length > 0) {
+                    Randomator.sortAlbumsBy(popularSongs, 'releaseDate', true);
+
+                    for (var i=0; i<popularSongs.length; i++) {
+                        popularSongs[i].releaseDate = parseInt(popularSongs[i].releaseDate.split('-')[2]) + ' ' + toMonth(popularSongs[i].releaseDate.split('-')[1]) + ' ' + popularSongs[i].releaseDate.split('-')[0];
+
+                        latestReleasesString += '' +
+                            '<li>' +
+                                '<div class="thumbnail">' +
+                                    '<a href="#"><img src="img/covers/' + popularSongs[i].imageUrl + '" alt="' + popularSongs[i].name + ' album cover"></a>' +
+                                '</div>' +
+                                '<div class="details">' +
+                                    '<h4 class="name truncate">' +
+                                        '<a href="#" title="' + popularSongs[i].name + '">' + popularSongs[i].name + '</a>' +
+                                    '</h4>' +
+                                    '<h5 class="info truncate">' +
+                                        '<a href="#" title="' + popularSongs[i].releaseDate + '">' + popularSongs[i].releaseDate + '</a>' +
+                                    '</h5>' +
+                                '</div>' +
+                                '<button><i class="material-icons">more_vert</i></button>' +
+                            '</li>';
+                    }
+                }
+                else {
+                    latestReleasesString = 'Spiacenti, nessun album trovato.'
+                }
+                $latestReleases.html(latestReleasesString);
+
+                //- SIMILAR ARTISTS SECTION
+                var similarArtistsString = '';
+
+                if (similarArtists.length > 0) {
+                    for (var i=0; i<similarArtists.length; i++) {
+                        similarArtistsString += '' +
+                            '<li>' +
+                                '<div class="thumbnail">' +
+                                    '<a href="#"><img src="img/covers/' + similarArtists[i].imageUrl + '" alt="' + similarArtists[i].artist + ' profile picture"></a>' +
+                                '</div>' +
+                                '<div class="details">' +
+                                    '<h4 class="name truncate">' +
+                                        '<a href="#" title="' + similarArtists[i].artist + '">' + similarArtists[i].artist + '</a>' +
+                                    '</h4>' +
+                                '</div>' +
+                                '<button><i class="material-icons">more_vert</i></button>' +
+                            '</li>';
+                    }
+                }
+                $similarArtists.html(similarArtistsString);
+
+                //- ALBUMS SECTION
+                var relatedAlbumsString = '';
+
+                if (relatedAlbums.length > 0) {
+                    Randomator.sortAlbumsBy(relatedAlbums, 'releaseDate', true);
+
+                    for (var i=0; i<relatedAlbums.length; i++) {
+                        var info = relatedAlbums[i].releaseDate.split('-')[0] + ' – ' + relatedAlbums[i].tracks.length + ' canzoni';
+
+                        relatedAlbumsString += '' +
+                            '<div class="album-unit">' +
+                                '<div class="album-unit-thumbnail">' +
+                                    '<a href="album-detail.html"><img src="img/covers/' + relatedAlbums[i].imageUrl + '" alt="' + relatedAlbums[i].name + ' album cover"></a>' +
+                                '</div>' +
+                                '<h4 class="name truncate">' +
+                                    '<a href="album-detail.html" title="' + relatedAlbums[i].name + '">' + relatedAlbums[i].name + '</a>' +
+                                '</h4>' +
+                                '<h5 class="info truncate">' +
+                                    '<a href="album-detail.html" title="' + info + '">' + info + '</a>' +
+                                '</h5>' +
+                            '</div>';
+                    }
+                }
+                else {
+                    relatedAlbumsString = 'Spiacenti, nessun album trovato.'
+                }
+                $relatedAlbums.html(relatedAlbumsString);
+
+                //- PLAYLISTS SECTION
+                $relatedPlaylistTitle.html('Playlists con <a href="artist-detail.html">' + album.artist + '</a>');
+
+                var numberOfPlaylists = Math.floor(Math.random() * 8),
+                    relatedPlaylistsString = '';
+
+                if (numberOfPlaylists > 0) {
+                    for (var i=0; i<numberOfPlaylists; i++) {
+                        var playlist = Randomator.getAlbum(data),
+                            info = playlist.releaseDate.split('-')[0] + ' – ' + playlist.tracks.length + ' canzoni';
+
+                        relatedPlaylistsString += '' +
+                            '<div class="album-unit">' +
+                                '<div class="album-unit-thumbnail">' +
+                                    '<a href="album-detail.html"><img src="img/covers/' + playlist.imageUrl + '" alt="' + playlist.name + ' album cover"></a>' +
+                                '</div>' +
+                                '<h4 class="name truncate">' +
+                                    '<a href="album-detail.html" title="' + playlist.name + '">' + playlist.name + '</a>' +
+                                '</h4>' +
+                                '<h5 class="info truncate">' +
+                                    '<a href="album-detail.html" title="' + info + '">' + info + '</a>' +
+                                '</h5>' +
+                            '</div>';
+                    }
+                } else {
+                    relatedPlaylistsString = 'Spiacenti, nessuna playlist trovata.'
+                }
+                $relatedPlaylist.html(relatedPlaylistsString);
+            });
+
+            function toMonth(monthNumber) {
+                var m = parseInt(monthNumber);
+
+                switch (m) {
+                    case 1: m = 'Gennaio';
+                            break;
+                    case 2: m = 'Febbraio';
+                            break;
+                    case 3: m = 'Marzo';
+                            break;
+                    case 4: m = 'Aprile';
+                            break;
+                    case 5: m = 'Maggio';
+                            break;
+                    case 6: m = 'Giugno';
+                            break;
+                    case 7: m = 'Luglio';
+                            break;
+                    case 8: m = 'Agosto';
+                            break;
+                    case 9: m = 'Settembre';
+                            break;
+                    case 10: m = 'Ottobre';
+                            break;
+                    case 11: m = 'Novembre';
+                            break;
+                    default: m = 'Dicembre';
+                }
+
+                return m;
+            }
+        });

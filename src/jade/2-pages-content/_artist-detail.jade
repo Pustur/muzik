@@ -1,0 +1,55 @@
+main.content.artist-detail
+    .hero
+        .album-cover
+            img.cover
+
+        .details
+            .top
+                h1.title
+
+            .bottom
+                .genres
+                    p.genres-paragraph Generi:
+                .options
+                    button(title="Aggiungi ai preferiti").hero-button
+                        i.material-icons favorite_border
+                    button(title="Condividi").hero-button
+                        i.material-icons share
+
+    .container.song-list-container
+        h2.section-title Canzoni più popolari
+        .song-list
+            table
+                thead
+                    tr
+                        th N°
+                        th= ' '
+                        th Titolo
+                        th Album
+                        th Durata
+                        th= ' '
+
+                tbody.songs-container
+
+    .container
+        .half-screen
+            .title.clearfix
+                h2.section-title Ultime uscite
+                a(href="#").view-more Vedi tutti <i class="material-icons">keyboard_arrow_right</i>
+            ul.mini-list.latest-releases
+
+        .half-screen
+            .title.clearfix
+                h2.section-title Artisti simili
+                a(href="#").view-more Vedi tutti <i class="material-icons">keyboard_arrow_right</i>
+            ul.mini-list.similar-artists
+
+        .clear
+
+        h2.related-albums-title.section-title Albums
+        .related-albums-container
+            .related-albums
+
+        h2.related-playlist-title.section-title
+        .related-playlist-container
+            .related-playlist

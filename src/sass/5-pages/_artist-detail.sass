@@ -87,6 +87,12 @@
         & > li
             display: flex
             padding: 8px 0
+            transition: background-color 0.3s ease
+            cursor: pointer
+
+            &:hover,
+            &:focus
+                background-color: $gray-13
 
             .thumbnail
                 flex: 0 0 40px

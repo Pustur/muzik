@@ -100,7 +100,7 @@ block scripts
                             '<td><button><i class="material-icons">play_arrow</i></button></td>' +
                             '<td>' + song.name + '</td>' +
                             '<td>' + song.artist + '</td>' +
-                            '<td>' + song.album + '</td>' +
+                            '<td><a href="album-detail.html">' + song.album + '</a></td>' +
                             '<td>' + song.duration.split(':')[1] + ':' + song.duration.split(':')[2] + '</td>' +
                             '<td><button><i class="material-icons">more_vert</i></button></td>' +
                         '</tr>';
@@ -114,7 +114,7 @@ block scripts
 
                 if (relatedAlbums.length > 0) {
                     for (var i=0; i<relatedAlbums.length; i++) {
-                        var info = 'Da <a href="#">' + relatedAlbums[i].artist + '</a>';
+                        var info = 'Creata da <a href="#">' + relatedAlbums[i].artist + '</a>';
 
                         relatedAlbumsString += '' +
                             '<div class="album-unit">' +

@@ -172,7 +172,7 @@ block scripts
                 if (numberOfPlaylists > 0) {
                     for (var i=0; i<numberOfPlaylists; i++) {
                         var playlist = Randomator.getAlbum(data),
-                            info = playlist.releaseDate.split('-')[0] + ' – ' + playlist.tracks.length + ' canzoni';
+                            info = 'Creata da <a href="album-detail.html">' + playlist.artist + '</a>';
 
                         relatedPlaylistsString += '' +
                             '<div class="album-unit">' +
@@ -184,7 +184,7 @@ block scripts
                                     '<a href="album-detail.html" title="' + playlist.name + '">' + playlist.name + '</a>' +
                                 '</h4>' +
                                 '<h5 class="info truncate">' +
-                                    '<a href="album-detail.html" title="' + info + '">' + info + '</a>' +
+                                    '<span>' + info + '</span>' +
                                 '</h5>' +
                             '</div>';
                     }

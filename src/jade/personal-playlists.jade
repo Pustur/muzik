@@ -1,0 +1,101 @@
+extend 0-layouts/_default
+
+block head
+    title Le tue playlists | Muzik!
+
+block sidebar
+    include 1-partials/_sidebar
+
+block topbar
+    include 1-partials/_topbar
+
+block content
+    include 2-pages-content/_personal-playlists
+
+block player
+    include 1-partials/_player
+
+block scripts
+    script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            function toMonth(monthNumber) {
+                var m = parseInt(monthNumber);
+
+                switch (m) {
+                    case 1: m = 'Gennaio';
+                            break;
+                    case 2: m = 'Febbraio';
+                            break;
+                    case 3: m = 'Marzo';
+                            break;
+                    case 4: m = 'Aprile';
+                            break;
+                    case 5: m = 'Maggio';
+                            break;
+                    case 6: m = 'Giugno';
+                            break;
+                    case 7: m = 'Luglio';
+                            break;
+                    case 8: m = 'Agosto';
+                            break;
+                    case 9: m = 'Settembre';
+                            break;
+                    case 10: m = 'Ottobre';
+                            break;
+                    case 11: m = 'Novembre';
+                            break;
+                    default: m = 'Dicembre';
+                }
+
+                return m;
+            }
+
+            var $sidebar = $('.sidebar'),
+                $mainMenu = $sidebar.find('.main-menu');
+
+            $mainMenu.find('> ul:last-child > li:nth-child(2)').addClass('active');
+
+            Randomator.getData(function(data) {
+                var playlists = [],
+                    playlistsString = '',
+                    random = Math.floor(Math.random() * 8) + 4,
+                    $playlistsContainer = $('.playlists-container');
+
+                for (var i=0; i<random; i++) {
+                    playlists.push(Randomator.getAlbum(data));
+                }
+
+                playlistsString += '' +
+                    '<div class="album-unit">' +
+                        '<div class="album-unit-thumbnail">' +
+                            '<a href="playlist-detail.html"><img src="img/placeholders/new-playlist.png" alt="add playlist"></a>' +
+                        '</div>' +
+                        '<h4 class="name truncate">' +
+                            '<a href="#">Nuova playlist</a>' +
+                        '</h4>' +
+                        '<h5 class="info truncate">' +
+                            '<span>Inizia subito!</span>' +
+                        '</h5>' +
+                    '</div>';
+
+                for (var i=0; i<playlists.length; i++) {
+                    var info = 'Da <a href="#">' + playlists[i].artist + '</a>';
+
+                    playlistsString += '' +
+                        '<div class="album-unit">' +
+                            '<div class="album-unit-thumbnail">' +
+                                '<a href="playlist-detail.html"><img src="img/covers/' + playlists[i].imageUrl + '" alt="' + playlists[i].name + ' playlist cover"></a>' +
+                                '<button class="fab"><i class="material-icons medium">play_arrow</i></button>' +
+                            '</div>' +
+                            '<h4 class="name truncate">' +
+                                '<a href="playlist-detail.html" title="' + playlists[i].name + '">' + playlists[i].name + '</a>' +
+                            '</h4>' +
+                            '<h5 class="info truncate">' +
+                                '<span>' + info + '</span>' +
+                            '</h5>' +
+                        '</div>';
+                }
+                $playlistsContainer.html(playlistsString);
+            });
+        });

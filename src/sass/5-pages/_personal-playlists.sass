@@ -1,0 +1,46 @@
+.personal-playlists
+    padding-top: ($gutter * 2)
+
+    .playlists-container
+        padding-bottom: ($gutter * 2)
+
+        .album-unit
+            margin-top: ($gutter * 2)
+            margin-left: ($gutter / 2)
+            margin-right: ($gutter / 2)
+
+            @media (max-width: 320px)
+                width: 128px
+
+            .album-unit-thumbnail
+                transform: scale(0.9)
+
+                .fab
+                    top: calc(50% - 32px)
+                    right: 0
+                    bottom: 0
+                    left: calc(50% - 32px)
+                    position: absolute
+                    transform: scale(0)
+                    transition: transform 0.3s ease, box-shadow 0.3s ease
+
+                &:hover,
+                &:focus
+                    .fab
+                        transform: scale(1)
+
+            &:first-child
+                .album-unit-thumbnail
+                    a
+                        img
+                            box-shadow: none
+
+            &:not(:first-child)
+                .album-unit-thumbnail
+                    a
+                        display: block
+                        background-color: $gray-13
+                        transform: rotate(-5deg)
+
+                        img
+                            transform: rotate(5deg)

@@ -1,0 +1,51 @@
+.genres
+    padding-top: ($gutter * 2)
+
+    .genres-container
+        padding-top: $gutter
+        padding-bottom: ($gutter * 2)
+        margin-right: (-$gutter / 2)
+        margin-left: (-$gutter / 2)
+
+        .genre-unit
+            vertical-align: middle
+            width: 140px
+            display: inline-block
+            position: relative
+            background:
+                position: 50% 50%
+                size: cover
+            margin-top: $gutter
+            margin-left: ($gutter / 2)
+            margin-right: ($gutter / 2)
+
+            @media (max-width: 320px)
+                width: 128px
+
+            @media (min-width: $md)
+                width: 180px
+
+            .genre-overlay
+                background-color: rgba(black, 0.5)
+                display: block
+                width: 100%
+                height: 140px
+                text-align: center
+                line-height: 140px
+                color: white
+                text-decoration: none
+                font-weight: 500
+                font-size: 16px
+                transition: background-color 0.3s ease
+
+                &:hover,
+                &:focus
+                    background-color: transparent
+
+                @media (max-width: 320px)
+                    height: 128px
+                    line-height: 128px
+
+                @media (min-width: $md)
+                    height: 180px
+                    line-height: 180px

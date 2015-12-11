@@ -1,0 +1,45 @@
+extend 0-layouts/_default
+
+block head
+    title Generi musicali | Muzik!
+
+block sidebar
+    include 1-partials/_sidebar
+
+block topbar
+    include 1-partials/_topbar
+
+block content
+    include 2-pages-content/_genres
+
+block player
+    include 1-partials/_player
+
+block scripts
+    script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            var $sidebar = $('.sidebar'),
+                $mainMenu = $sidebar.find('.main-menu');
+
+            $mainMenu.find('> ul:first-child > li:nth-child(5)').addClass('active');
+
+            var genres = [
+                    'Rock', 'Pop', 'Indie', 'Alternative', 'Elettronica',
+                    'House', 'Dance', 'Hip Hop', 'Metal',
+                    'Soul', 'Classica', 'R&B', 'Country', 'Jazz',
+                    'Blues', 'Reggae', 'Latino', 'Punk', 'Funk', 'Etnica'
+                ],
+                $genresContainer = $('.genres-container');
+
+            genres.sort();
+
+            var genresString = '';
+            for (var i=0; i<genres.length; i++) {
+                genresString += '' +
+                    '<div class="genre-unit" style="background-image: url(img/genres/' + genres[i].replace(' ', '-').toLowerCase() + '.jpg)">' +
+                        '<a href="#" class="genre-overlay">' + genres[i] + '</a>' +
+                    '</div>';
+            }
+            $genresContainer.html(genresString);
+        });

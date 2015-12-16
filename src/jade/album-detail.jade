@@ -74,7 +74,7 @@ block scripts
                 }
                 $songsContainer.html(songsString);
 
-                $relatedAlbumsTitle.html('Altri album di <a href="#">' + album.artist + '</a>');
+                $relatedAlbumsTitle.html('Altri album di <a href="artist-detail.html">' + album.artist + '</a>');
 
                 var relatedAlbums = Randomator.getArtistAlbums(data, album.artist, album.name),
                     relatedAlbumsString = '';

@@ -107,7 +107,7 @@ block scripts
                 }
                 $songsContainer.html(songsString);
 
-                $relatedAlbumsTitle.html('Altre playlists di <a href="#">' + album.artist + '</a>');
+                $relatedAlbumsTitle.html('Altre playlists di <a href="artist-detail.html">' + album.artist + '</a>');
 
                 var relatedAlbums = Randomator.getArtistAlbums(data, album.artist, album.name),
                     relatedAlbumsString = '';

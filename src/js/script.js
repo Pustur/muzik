@@ -33,12 +33,12 @@ $(document).ready(function() {
 
                 songsString += '' +
                     '<li class="song' + (i === 0 ? ' active' : '') + '">' +
-                        '<a href="#">' +
+                        '<a href="album-detail.html">' +
                             '<img class="thumbnail" src="img/covers/' + song.imageUrl + '">' +
                         '</a>' +
                         '<div class="details">' +
                             '<a class="title truncate" href="#" title="' + song.name + '">' + song.name + '</a>' +
-                            '<a class="artist truncate" href="#" title="' + song.artist + '">' + song.artist + '</a>' +
+                            '<a class="artist truncate" href="artist-detail.html" title="' + song.artist + '">' + song.artist + '</a>' +
                         '</div>' +
                         '<div class="icon-bars">' +
                             '<div class="bar"></div>' +
@@ -56,12 +56,12 @@ $(document).ready(function() {
                 if (i === 0) {
                     var songInPlayer = '';
                         songInPlayer += '' +
-                            '<a href="#">' +
+                            '<a href="album-detail.html">' +
                                 '<img class="thumbnail" src="img/covers/' + song.imageUrl + '">' +
                             '</a>' +
                             '<div class="details">' +
                                 '<a class="title truncate" href="#" title="' + song.name + '">' + song.name + '</a>' +
-                                '<a class="artist truncate" href="#" title="' + song.artist + '">' + song.artist + '</a>' +
+                                '<a class="artist truncate" href="artist-detail.html" title="' + song.artist + '">' + song.artist + '</a>' +
                             '</div>';
 
                     $queueButton.before(songInPlayer);

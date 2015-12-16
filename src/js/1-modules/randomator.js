@@ -3,7 +3,7 @@ var Randomator = (function($) {
 
     // Functions
     function getJsonData(callback) {
-        $.getJSON('/db.json', function(results){
+        $.getJSON('db.json', function(results){
             if (typeof callback === 'function') {
                 callback(results);
             }

@@ -1,2 +1,29 @@
-.content
-    | this is my content
+main.content.home
+    .container
+        a(href="playlist-detail.html").mix-del-giorno
+            h2.section-title Playlist del giorno
+            img(src="img/mix-del-giorno.jpg", alt="Mix del giorno")
+            button.fab
+                i.material-icons.medium play_arrow
+
+        .half-screen
+            .title.clearfix
+                h2.section-title Ultime uscite
+                a(href="#").view-more Vedi tutti <i class="material-icons">keyboard_arrow_right</i>
+            ul.mini-list.new-songs
+
+        .half-screen
+            .title.clearfix
+                h2.section-title Canzoni popolari
+                a(href="#").view-more Vedi tutti <i class="material-icons">keyboard_arrow_right</i>
+            ul.mini-list.popular-songs
+
+        .clear
+
+        .suggested-albums-container
+            h2.section-title Album consigliati
+            .suggested-albums
+
+        .suggested-playlists-container
+            h2.section-title Playlist consigliate
+            .suggested-playlists

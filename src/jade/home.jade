@@ -23,4 +23,131 @@ block scripts
                 $mainMenu = $sidebar.find('.main-menu');
 
             $mainMenu.find('> ul:first-child > li:nth-child(1)').addClass('active');
+
+            Randomator.getData(function(data) {
+                var suggestedAlbums = [
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data)
+                    ],
+                    $suggestedAlbums = $('.suggested-albums'),
+                    suggestedPlaylists = [
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data),
+                        Randomator.getAlbum(data)
+                    ],
+                    $suggestedPlaylists = $('.suggested-playlists')
+                    newSongs = [
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data)
+                    ],
+                    $newSongs = $('.new-songs'),
+                    popularSongs = [
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data),
+                        Randomator.getSong(data)
+                    ],
+                    $popularSongs = $('.popular-songs');
+
+                //- SUGGESTED ALBUMS SECTION
+
+                var suggestedAlbumsString = '';
+
+                for (var i=0; i<suggestedAlbums.length; i++) {
+                    var info = suggestedAlbums[i].releaseDate.split('-')[0] + ' – ' + suggestedAlbums[i].tracks.length + ' canzoni';
+
+                    suggestedAlbumsString += '' +
+                        '<div class="album-unit">' +
+                            '<div class="album-unit-thumbnail">' +
+                                '<a href="album-detail.html"><img src="img/covers/' + suggestedAlbums[i].imageUrl + '" alt="' + suggestedAlbums[i].name + ' album cover"></a>' +
+                                '<button class="fab"><i class="material-icons medium">play_arrow</i></button>' +
+                            '</div>' +
+                            '<h4 class="name truncate">' +
+                                '<a href="album-detail.html" title="' + suggestedAlbums[i].name + '">' + suggestedAlbums[i].name + '</a>' +
+                            '</h4>' +
+                            '<h5 class="info truncate">' +
+                                '<a href="album-detail.html" title="' + info + '">' + info + '</a>' +
+                            '</h5>' +
+                        '</div>';
+                }
+                $suggestedAlbums.html(suggestedAlbumsString);
+
+                //- SUGGESTED PLAYLISTS SECTION
+
+                var suggestedPlaylistsString = '';
+
+                for (var i=0; i<suggestedPlaylists.length; i++) {
+                    var info = 'Creata da <a href="artist-detail.html">' + suggestedPlaylists[i].artist + '</a>';
+
+                    suggestedPlaylistsString += '' +
+                        '<div class="album-unit">' +
+                            '<div class="album-unit-thumbnail">' +
+                                '<a href="playlist-detail.html"><img src="img/covers/' + suggestedPlaylists[i].imageUrl + '" alt="' + suggestedPlaylists[i].name + ' playlist cover"></a>' +
+                                '<button class="fab"><i class="material-icons medium">play_arrow</i></button>' +
+                            '</div>' +
+                            '<h4 class="name truncate">' +
+                                '<a href="playlist-detail.html" title="' + suggestedPlaylists[i].name + '">' + suggestedPlaylists[i].name + '</a>' +
+                            '</h4>' +
+                            '<h5 class="info truncate">' +
+                                '<span>' + info + '</span>' +
+                            '</h5>' +
+                        '</div>';
+                }
+                $suggestedPlaylists.html(suggestedPlaylistsString);
+
+                //- NEW SONGS SECTION
+
+                var newSongsString = '';
+
+                for (var i=0; i<newSongs.length; i++) {
+                    newSongsString += '' +
+                        '<li>' +
+                            '<div class="thumbnail">' +
+                                '<a href="#"><img src="img/covers/' + newSongs[i].imageUrl + '" alt="' + newSongs[i].name + ' album cover"></a>' +
+                            '</div>' +
+                            '<div class="details">' +
+                                '<h4 class="name truncate">' +
+                                    '<a href="#" title="' + newSongs[i].name + '">' + newSongs[i].name + '</a>' +
+                                '</h4>' +
+                                '<h5 class="info truncate">' +
+                                    '<a href="#" title="' + newSongs[i].artist + '">' + newSongs[i].artist + '</a>' +
+                                '</h5>' +
+                            '</div>' +
+                            '<button><i class="material-icons">more_vert</i></button>' +
+                        '</li>';
+                }
+                $newSongs.html(newSongsString);
+
+                //- POPULAR SONGS SECTION
+
+                var popularSongsString = '';
+
+                for (var i=0; i<popularSongs.length; i++) {
+                    popularSongsString += '' +
+                        '<li>' +
+                            '<div class="thumbnail">' +
+                                '<a href="#"><img src="img/covers/' + popularSongs[i].imageUrl + '" alt="' + popularSongs[i].name + ' album cover"></a>' +
+                            '</div>' +
+                            '<div class="details">' +
+                                '<h4 class="name truncate">' +
+                                    '<a href="#" title="' + popularSongs[i].name + '">' + popularSongs[i].name + '</a>' +
+                                '</h4>' +
+                                '<h5 class="info truncate">' +
+                                    '<a href="#" title="' + popularSongs[i].artist + '">' + popularSongs[i].artist + '</a>' +
+                                '</h5>' +
+                            '</div>' +
+                            '<button><i class="material-icons">more_vert</i></button>' +
+                        '</li>';
+                }
+                $popularSongs.html(popularSongsString);
+            });
         });

@@ -60,7 +60,7 @@ block scripts
 
                 var genresString = '';
                 for (var i=0; i<album.genres.length; i++) {
-                    genresString += '<a href="#">' + album.genres[i] + '</a>';
+                    genresString += '<a href="genres.html">' + album.genres[i] + '</a>';
                 }
                 $genres.append(genresString);
 
@@ -94,7 +94,7 @@ block scripts
                         latestReleasesString += '' +
                             '<li>' +
                                 '<div class="thumbnail">' +
-                                    '<a href="#"><img src="img/covers/' + popularSongs[i].imageUrl + '" alt="' + popularSongs[i].name + ' album cover"></a>' +
+                                    '<a href="album-detail.html"><img src="img/covers/' + popularSongs[i].imageUrl + '" alt="' + popularSongs[i].name + ' album cover"></a>' +
                                 '</div>' +
                                 '<div class="details">' +
                                     '<h4 class="name truncate">' +
@@ -121,11 +121,11 @@ block scripts
                         similarArtistsString += '' +
                             '<li>' +
                                 '<div class="thumbnail">' +
-                                    '<a href="#"><img src="img/covers/' + similarArtists[i].imageUrl + '" alt="' + similarArtists[i].artist + ' profile picture"></a>' +
+                                    '<a href="artist-detail.html"><img src="img/covers/' + similarArtists[i].imageUrl + '" alt="' + similarArtists[i].artist + ' profile picture"></a>' +
                                 '</div>' +
                                 '<div class="details">' +
                                     '<h4 class="name truncate">' +
-                                        '<a href="#" title="' + similarArtists[i].artist + '">' + similarArtists[i].artist + '</a>' +
+                                        '<a href="artist-detail.html" title="' + similarArtists[i].artist + '">' + similarArtists[i].artist + '</a>' +
                                     '</h4>' +
                                 '</div>' +
                                 '<button><i class="material-icons">more_vert</i></button>' +
@@ -172,16 +172,16 @@ block scripts
                 if (numberOfPlaylists > 0) {
                     for (var i=0; i<numberOfPlaylists; i++) {
                         var playlist = Randomator.getAlbum(data),
-                            info = 'Creata da <a href="album-detail.html">' + playlist.artist + '</a>';
+                            info = 'Creata da <a href="artist-detail.html">' + playlist.artist + '</a>';
 
                         relatedPlaylistsString += '' +
                             '<div class="album-unit">' +
                                 '<div class="album-unit-thumbnail">' +
-                                    '<a href="album-detail.html"><img src="img/covers/' + playlist.imageUrl + '" alt="' + playlist.name + ' album cover"></a>' +
+                                    '<a href="playlist-detail.html"><img src="img/covers/' + playlist.imageUrl + '" alt="' + playlist.name + ' album cover"></a>' +
                                     '<button class="fab"><i class="material-icons medium">play_arrow</i></button>' +
                                 '</div>' +
                                 '<h4 class="name truncate">' +
-                                    '<a href="album-detail.html" title="' + playlist.name + '">' + playlist.name + '</a>' +
+                                    '<a href="playlist-detail.html" title="' + playlist.name + '">' + playlist.name + '</a>' +
                                 '</h4>' +
                                 '<h5 class="info truncate">' +
                                     '<span>' + info + '</span>' +

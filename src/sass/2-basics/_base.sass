@@ -41,6 +41,20 @@ body
 .gray
     color: $gray-54
 
+.shadow-link
+    display: block
+    position: fixed
+    margin-left: -9999px
+    top: 0
+    left: 0
+    z-index: 999
+    color: white
+    padding: ($gutter * 1.5)
+    text-decoration: none
+
+    &:focus
+        margin-left: 0
+
 hr
     border: 0
     height: 0

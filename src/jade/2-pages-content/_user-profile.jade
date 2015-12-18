@@ -1,0 +1,36 @@
+mixin input(inputLabel, inputType, inputName, inputId, inputPlaceholder)
+    label(for=inputId)= inputLabel
+    input(id=inputId, type=inputType, name=inputName, placeholder=inputPlaceholder)&attributes(attributes)= name
+
+main.content.user-profile
+    .container
+        .user-profile-container
+            h1.title Dati profilo
+
+            .bottom-section
+                .user-section
+                    h2.section-title Email e nome utente
+                    .col-1 Email di registrazione:
+                    .col-2 esempio@dominio.com
+
+                    br
+
+                    .col-1 Nome utente pubblico:
+                    .col-2 PincoPallino
+
+                .user-section
+                    h2.section-title Cambio password
+                    form
+                        .input-wrapper
+                            +input('Vecchia password', 'password', 'old-password', 'password-field-old', 'Vecchia password')
+
+                        .input-wrapper
+                            +input('Nuova password', 'password', 'new-password', 'password-field-new', 'Nuova password')
+
+                        .input-wrapper
+                            +input('Ripeti nuova password', 'password', 'repeat-new-password', 'password-field-new-repeat', 'Ripeti nuova password')
+
+                .user-section
+                    h2.section-title Abbonamento
+                    p.gray Il tuo abbonamento scadrà il <time datetime="2016-03-20">20 marzo 2016</time> (92 giorni rimanenti)
+                    a(href="#").button.primary Annulla rinnovo automatico

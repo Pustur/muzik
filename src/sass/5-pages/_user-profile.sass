@@ -1,0 +1,63 @@
+main.user-profile
+    padding: ($gutter * 4) 0
+    background-image: url(../img/agsquare-pattern.png)
+
+    .container
+        max-width: 480px
+
+    .user-profile-container
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+        background-color: white
+
+        .title
+            background-color: $primary
+            text-align: center
+            color: white
+            font-size: 24px
+            padding: $gutter 0
+
+        .bottom-section
+            padding: $gutter
+
+    .user-section
+        & + .user-section
+            margin-top: ($gutter * 4)
+
+        [class^="col-"]
+            margin-top: $gutter
+
+            @media (min-width: $md)
+                display: inline-block
+
+        .col-1
+            @media (min-width: $md)
+                width: 160px
+                font-weight: 700
+
+        .col-2
+            color: $gray-54
+
+        .input-wrapper
+            margin: ($gutter * 2) 0
+
+            label
+                display: block
+
+            input
+                display: inline-block
+                border-bottom: 2px solid $gray-13
+
+                &:focus
+                    outline: none
+
+        time
+            font-weight: 700
+
+        .button
+            margin-top: ($gutter * 2)
+            height: 48px
+            line-height: 48px
+            display: block
+
+            @media (max-width: $sm-max)
+                padding: 0

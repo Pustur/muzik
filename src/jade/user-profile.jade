@@ -1,0 +1,26 @@
+extend 0-layouts/_default
+
+block head
+    title Profilo utente | Muzik!
+
+block sidebar
+    include 1-partials/_sidebar
+
+block topbar
+    include 1-partials/_topbar
+
+block content
+    include 2-pages-content/_user-profile
+
+block player
+    include 1-partials/_player
+
+block scripts
+    script(src="js/script.min.js")
+    script.
+        $(document).ready(function() {
+            var $sidebar = $('.sidebar'),
+                $mainMenu = $sidebar.find('.main-menu');
+
+            $mainMenu.find('> ul:last-child > li:nth-child(3)').addClass('active');
+        });

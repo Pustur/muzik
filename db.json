@@ -43,7 +43,7 @@
         },
         {
             "name": "Impostazioni",
-            "link": "#",
+            "link": "user-profile.html",
             "icon": "settings"
         }
     ],

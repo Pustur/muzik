@@ -53,8 +53,11 @@ main.home
         position: relative
         padding-top: ($gutter * 4)
 
+        .section-title
+            float: left
+
         &::before
-            +trbl(0, 0, 0, auto)
+            +trbl(calc(#{($gutter * 4)} + 24px), 0, 0, auto)
             content: ' '
             background: linear-gradient(to right, rgba(white ,0) 0%, rgba(white, 0.8) 100%)
             width: 50px
@@ -111,13 +114,13 @@ main.home
             .section-title
                 float: left
 
-            .view-more
-                float: right
-                color: $gray-54
-                text-decoration: none
+    .view-more
+        float: right
+        color: $gray-54
+        text-decoration: none
 
-                .material-icons
-                    vertical-align: middle
+        .material-icons
+            vertical-align: middle
 
     .mini-list
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
@@ -163,6 +166,17 @@ main.home
                 .name
                     font-weight: 500
                     margin-bottom: ($gutter / 2)
+
+            .badge
+                background-color: $primary
+                border-radius: 2px
+                color: white
+                height: 20px
+                line-height: 20px
+                flex: 0 0 36px
+                align-self: center
+                text-align: center
+                font-size: 10px
 
             button
                 flex: 0 0 56px

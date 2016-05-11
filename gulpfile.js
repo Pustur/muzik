@@ -30,7 +30,7 @@ gulp.task('html', function(){
     gulp.src(config.src + 'jade/**/!(_)*.jade')
     .pipe(plumber())
     .pipe(data(function(file){
-        return JSON.parse(fs.readFileSync('./db.json'));
+        return JSON.parse(fs.readFileSync(config.src + 'db.json'));
     }))
     .pipe(jade({
         pretty: config.production ? false : true
@@ -84,7 +84,7 @@ gulp.task('img', function(){
 });
 
 gulp.task('db', function(){
-    return gulp.src('./db.json')
+    return gulp.src(config.src + 'db.json')
     .pipe(gulp.dest(config.dest));
 });
 

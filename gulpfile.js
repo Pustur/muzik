@@ -104,3 +104,4 @@ gulp.task('watch', function(){
 
 // Default task
 gulp.task('default', ['html', 'css', 'js', 'jquery', 'img', 'db', 'server', 'watch']);
+gulp.task('build', ['html', 'css', 'js', 'jquery', 'img', 'db']);
